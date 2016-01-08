@@ -19,3 +19,4 @@ github_username:  rinocloud
 
 # Build settings
 markdown: kramdown
+baseurl: "/rinocloud-tutorials"
