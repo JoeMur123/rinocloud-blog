@@ -64,14 +64,14 @@
 
   <div class="post-content" itemprop="articleBody">
     <h1 id="the-rinocloud-matlab-interface">The RinoCloud-MATLAB Interface</h1>
-<p>You can save and load data files from RinoCloud from within MATLAB using the RinoCloud-MATLAB interface. To get started, download the <a href="www.LinkGoesHere.com">RinoCloud-MATLAB interface folder</a>.</p>
+<p>You can save and load data files from RinoCloud from within MATLAB using the RinoCloud-MATLAB interface. To get started, download the <a href="https://rinocloud.com/dl/matlab/">RinoCloud-MATLAB interface folder</a>.</p>
 
 <h2 id="setting-up-the-rinocloud-matlab-interface">Setting up the RinoCloud-MATLAB Interface</h2>
 <p>These setup instructions are for OS X devices. Instructions for windows machines are coming soon.</p>
 
 <p>Once you have signed in to RinoCloud and downloaded the RinoCloud-MATLAB interface folder, add the folder and subfolders to the MATLAB path.</p>
 
-<p>Once you have done this, get your API Token <a href="www.LinkGoesHere.com">here</a>. Copy your API token and paste it into the file called APIToken.txt, which is found in the RinoCloud-MATLAB Interface folder. Remember to keep this token secret, anyone with acess to the API token can see and modify your data.</p>
+<p>Once you have done this, get your API Token <a href="https://rinocloud.com/api/1/users/token/">here</a>. Copy your API token and paste it into the file called APIToken.txt, which is found in the RinoCloud-MATLAB Interface folder. Remember to keep this token secret, anyone with acess to the API token can see and modify your data.</p>
 
 <p><strong>That’s it!</strong> You’re all set up and ready to go. See below for guides to using the different functions in the RinoCloud-MATLAB Interface.</p>
 
@@ -80,36 +80,44 @@
 
 <p>Here are some simple examples of using rinosave() in the MATLAB command window:</p>
 
-<p>Saving and arbitrary file type:
-<code class="highlighter-rouge">
-&gt;&gt; MusicFile = fopen(littletalks.mp3);
-&gt;&gt; rinosave(MusicFile);
-</code> 
-This saves littletalks.mp3 to RinoCloud.</p>
+<p>Saving and arbitrary file type:</p>
 
-<p>Saving MATLAB matrix:
-<code class="highlighter-rouge">
-&gt;&gt; Matrix = [1,2,3;4,5,6;7,8,9];
-&gt;&gt; rinosave(Matrix);
-</code>
-This saves the matrix to RinoCloud as a csv file called Matrix.txt.</p>
-
-<h2 id="saving-metadata">Saving Metadata</h2>
-<p>It can sometimes be useful to save metadata with data you save. For example, if you save a matrix that is the result of a simulation, you may wish to save the matrix with the parameters used in the simulation. Metadata can be saved using key-value pairs in a cell array. For example:
-<code class="highlighter-rouge">
-&gt;&gt; rinosave(Matrix, 'metadata', {'Laser power', '1.23 W', 'Magnetic field', '0.25 T'});
-</code>
-will save the matrix to RinoCloud with the associated metadata specifying a laser power of 1.23 W and a magnetic field of 0.25 T. You can sort and search by metadata parameters using the RinoCloud web interface.</p>
-
-<h2 id="tags">Tags</h2>
-<p>As well as saving metadata, you can save data with tags to help with searching. For example, if you wanted to save a matrix with the tags ‘good data’ and ‘high power’, you simply include them in a cell array:
-<code class="highlighter-rouge">
-&gt;&gt; rinosave(Matrix, 'tags', {'good data', 'high power'});
+<p><code class="highlighter-rouge">
+&gt;&gt;&gt; MusicFile = fopen(littletalks.mp3);
+&gt;&gt;&gt; rinosave(MusicFile);
 </code></p>
 
-<p>Of course, tags and metadata can be saved at the same time:
-<code class="highlighter-rouge">
-&gt;&gt; rinosave(Matrix, 'metadata', {'Laser power', '1.23 W', 'Magnetic field', '0.25 T'}, 'tags', {'good data', 'high power'});
+<p>This saves littletalks.mp3 to RinoCloud.</p>
+
+<p>Saving MATLAB matrix:</p>
+
+<p><code class="highlighter-rouge">
+&gt;&gt;&gt; Matrix = [1,2,3;4,5,6;7,8,9];
+&gt;&gt;&gt; rinosave(Matrix);
+</code></p>
+
+<p>This saves the matrix to RinoCloud as a csv file called Matrix.txt.</p>
+
+<h2 id="saving-metadata">Saving Metadata</h2>
+<p>It can sometimes be useful to save metadata with data you save. For example, if you save a matrix that is the result of a simulation, you may wish to save the matrix with the parameters used in the simulation. Metadata can be saved using key-value pairs in a cell array. For example:</p>
+
+<p><code class="highlighter-rouge">
+&gt;&gt;&gt; rinosave(Matrix, 'metadata', {'Laser power', '1.23 W', 'Magnetic field', '0.25 T'});
+</code></p>
+
+<p>will save the matrix to RinoCloud with the associated metadata specifying a laser power of 1.23 W and a magnetic field of 0.25 T. You can sort and search by metadata parameters using the RinoCloud web interface.</p>
+
+<h2 id="tags">Tags</h2>
+<p>As well as saving metadata, you can save data with tags to help with searching. For example, if you wanted to save a matrix with the tags ‘good data’ and ‘high power’, you simply include them in a cell array:</p>
+
+<p><code class="highlighter-rouge">
+&gt;&gt;&gt; rinosave(Matrix, 'tags', {'good data', 'high power'});
+</code></p>
+
+<p>Of course, tags and metadata can be saved at the same time:</p>
+
+<p><code class="highlighter-rouge">
+&gt;&gt;&gt; rinosave(Matrix, 'metadata', {'Laser power', '1.23 W', 'Magnetic field', '0.25 T'}, 'tags', {'good data', 'high power'});
 </code></p>
 
 <h1 id="rinoget">rinoget()</h1>
@@ -117,31 +125,37 @@ will save the matrix to RinoCloud with the associated metadata specifying a lase
 
 <p>If no arguments are passed to rinoget(), it will simply get the last file that was saved. Note that the last file need not have been saved using MATLAB, making RinoCloud a good option for quickly moving data between different computers and programs.</p>
 
-<p>If the last file saved was the matrix from the previous section, you can use ‘rinoget()’ as follows:
-<code class="highlighter-rouge">
-&gt;&gt; DownloadedMatrix = rinoget();
-&gt;&gt; DownloadedMatrix
+<p>If the last file saved was the matrix from the previous section, you can use ‘rinoget()’ as follows:</p>
+
+<p><code class="highlighter-rouge">
+&gt;&gt;&gt; DownloadedMatrix = rinoget();
+&gt;&gt;&gt; DownloadedMatrix
 DowloadedMatrix = 
     1   2   3
     4   5   6
     7   8   9
 </code></p>
 
-<p>For arbitrary file types, or if ‘parse’ is set to ‘false’, rinoget() will simple open the file. For example, if the last saved file was littletalks.mp3, then:
-<code class="highlighter-rouge">
-MusicFile = rinoget('parse', 'false');
-</code>
-performs the same function as:
-<code class="highlighter-rouge">
-MusicFile = fopen(littletalks.mp3);
-</code>
-if the file were saved locally.</p>
+<p>For arbitrary file types, or if ‘parse’ is set to ‘false’, rinoget() will simple open the file. For example, if the last saved file was littletalks.mp3, then:</p>
+
+<p><code class="highlighter-rouge">
+&gt;&gt;&gt; MusicFile = rinoget('parse', 'false');
+</code></p>
+
+<p>performs the same function as:</p>
+
+<p><code class="highlighter-rouge">
+&gt;&gt;&gt; MusicFile = fopen(littletalks.mp3);
+</code></p>
+
+<p>if the file were saved locally.</p>
 
 <p>If you want to download a file that is not the most recent file, you can use its file ID, which you can find using the web interface.</p>
 
-<p>For example, to download the file with the ID ‘63543’, you would enter:
-<code class="highlighter-rouge">
-File = rinoget(63543, 'parse', 'false');
+<p>For example, to download the file with the ID ‘63543’, you would enter:</p>
+
+<p><code class="highlighter-rouge">
+&gt;&gt;&gt; File = rinoget(63543, 'parse', 'false');
 </code></p>
 
 <h1 id="coming-soon">Coming soon…</h1>

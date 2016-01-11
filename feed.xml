@@ -5,21 +5,21 @@
     <description></description>
     <link>http://rinocloud.com/rinocloud-tutorials/</link>
     <atom:link href="http://rinocloud.com/rinocloud-tutorials/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Jan 2016 19:19:06 +0000</pubDate>
-    <lastBuildDate>Mon, 11 Jan 2016 19:19:06 +0000</lastBuildDate>
+    <pubDate>Mon, 11 Jan 2016 19:22:40 +0000</pubDate>
+    <lastBuildDate>Mon, 11 Jan 2016 19:22:40 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Matlab Rinocloud tutorial</title>
         <description>&lt;h1 id=&quot;the-rinocloud-matlab-interface&quot;&gt;The RinoCloud-MATLAB Interface&lt;/h1&gt;
-&lt;p&gt;You can save and load data files from RinoCloud from within MATLAB using the RinoCloud-MATLAB interface. To get started, download the &lt;a href=&quot;www.LinkGoesHere.com&quot;&gt;RinoCloud-MATLAB interface folder&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can save and load data files from RinoCloud from within MATLAB using the RinoCloud-MATLAB interface. To get started, download the &lt;a href=&quot;https://rinocloud.com/dl/matlab/&quot;&gt;RinoCloud-MATLAB interface folder&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;setting-up-the-rinocloud-matlab-interface&quot;&gt;Setting up the RinoCloud-MATLAB Interface&lt;/h2&gt;
 &lt;p&gt;These setup instructions are for OS X devices. Instructions for windows machines are coming soon.&lt;/p&gt;
 
 &lt;p&gt;Once you have signed in to RinoCloud and downloaded the RinoCloud-MATLAB interface folder, add the folder and subfolders to the MATLAB path.&lt;/p&gt;
 
-&lt;p&gt;Once you have done this, get your API Token &lt;a href=&quot;www.LinkGoesHere.com&quot;&gt;here&lt;/a&gt;. Copy your API token and paste it into the file called APIToken.txt, which is found in the RinoCloud-MATLAB Interface folder. Remember to keep this token secret, anyone with acess to the API token can see and modify your data.&lt;/p&gt;
+&lt;p&gt;Once you have done this, get your API Token &lt;a href=&quot;https://rinocloud.com/api/1/users/token/&quot;&gt;here&lt;/a&gt;. Copy your API token and paste it into the file called APIToken.txt, which is found in the RinoCloud-MATLAB Interface folder. Remember to keep this token secret, anyone with acess to the API token can see and modify your data.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;That’s it!&lt;/strong&gt; You’re all set up and ready to go. See below for guides to using the different functions in the RinoCloud-MATLAB Interface.&lt;/p&gt;
 
@@ -28,36 +28,44 @@
 
 &lt;p&gt;Here are some simple examples of using rinosave() in the MATLAB command window:&lt;/p&gt;
 
-&lt;p&gt;Saving and arbitrary file type:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-&amp;gt;&amp;gt; MusicFile = fopen(littletalks.mp3);
-&amp;gt;&amp;gt; rinosave(MusicFile);
-&lt;/code&gt; 
-This saves littletalks.mp3 to RinoCloud.&lt;/p&gt;
+&lt;p&gt;Saving and arbitrary file type:&lt;/p&gt;
 
-&lt;p&gt;Saving MATLAB matrix:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-&amp;gt;&amp;gt; Matrix = [1,2,3;4,5,6;7,8,9];
-&amp;gt;&amp;gt; rinosave(Matrix);
-&lt;/code&gt;
-This saves the matrix to RinoCloud as a csv file called Matrix.txt.&lt;/p&gt;
-
-&lt;h2 id=&quot;saving-metadata&quot;&gt;Saving Metadata&lt;/h2&gt;
-&lt;p&gt;It can sometimes be useful to save metadata with data you save. For example, if you save a matrix that is the result of a simulation, you may wish to save the matrix with the parameters used in the simulation. Metadata can be saved using key-value pairs in a cell array. For example:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-&amp;gt;&amp;gt; rinosave(Matrix, &#39;metadata&#39;, {&#39;Laser power&#39;, &#39;1.23 W&#39;, &#39;Magnetic field&#39;, &#39;0.25 T&#39;});
-&lt;/code&gt;
-will save the matrix to RinoCloud with the associated metadata specifying a laser power of 1.23 W and a magnetic field of 0.25 T. You can sort and search by metadata parameters using the RinoCloud web interface.&lt;/p&gt;
-
-&lt;h2 id=&quot;tags&quot;&gt;Tags&lt;/h2&gt;
-&lt;p&gt;As well as saving metadata, you can save data with tags to help with searching. For example, if you wanted to save a matrix with the tags ‘good data’ and ‘high power’, you simply include them in a cell array:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-&amp;gt;&amp;gt; rinosave(Matrix, &#39;tags&#39;, {&#39;good data&#39;, &#39;high power&#39;});
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&amp;gt;&amp;gt;&amp;gt; MusicFile = fopen(littletalks.mp3);
+&amp;gt;&amp;gt;&amp;gt; rinosave(MusicFile);
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Of course, tags and metadata can be saved at the same time:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-&amp;gt;&amp;gt; rinosave(Matrix, &#39;metadata&#39;, {&#39;Laser power&#39;, &#39;1.23 W&#39;, &#39;Magnetic field&#39;, &#39;0.25 T&#39;}, &#39;tags&#39;, {&#39;good data&#39;, &#39;high power&#39;});
+&lt;p&gt;This saves littletalks.mp3 to RinoCloud.&lt;/p&gt;
+
+&lt;p&gt;Saving MATLAB matrix:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&amp;gt;&amp;gt;&amp;gt; Matrix = [1,2,3;4,5,6;7,8,9];
+&amp;gt;&amp;gt;&amp;gt; rinosave(Matrix);
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This saves the matrix to RinoCloud as a csv file called Matrix.txt.&lt;/p&gt;
+
+&lt;h2 id=&quot;saving-metadata&quot;&gt;Saving Metadata&lt;/h2&gt;
+&lt;p&gt;It can sometimes be useful to save metadata with data you save. For example, if you save a matrix that is the result of a simulation, you may wish to save the matrix with the parameters used in the simulation. Metadata can be saved using key-value pairs in a cell array. For example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&amp;gt;&amp;gt;&amp;gt; rinosave(Matrix, &#39;metadata&#39;, {&#39;Laser power&#39;, &#39;1.23 W&#39;, &#39;Magnetic field&#39;, &#39;0.25 T&#39;});
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;will save the matrix to RinoCloud with the associated metadata specifying a laser power of 1.23 W and a magnetic field of 0.25 T. You can sort and search by metadata parameters using the RinoCloud web interface.&lt;/p&gt;
+
+&lt;h2 id=&quot;tags&quot;&gt;Tags&lt;/h2&gt;
+&lt;p&gt;As well as saving metadata, you can save data with tags to help with searching. For example, if you wanted to save a matrix with the tags ‘good data’ and ‘high power’, you simply include them in a cell array:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&amp;gt;&amp;gt;&amp;gt; rinosave(Matrix, &#39;tags&#39;, {&#39;good data&#39;, &#39;high power&#39;});
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, tags and metadata can be saved at the same time:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&amp;gt;&amp;gt;&amp;gt; rinosave(Matrix, &#39;metadata&#39;, {&#39;Laser power&#39;, &#39;1.23 W&#39;, &#39;Magnetic field&#39;, &#39;0.25 T&#39;}, &#39;tags&#39;, {&#39;good data&#39;, &#39;high power&#39;});
 &lt;/code&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;rinoget&quot;&gt;rinoget()&lt;/h1&gt;
@@ -65,31 +73,37 @@ will save the matrix to RinoCloud with the associated metadata specifying a lase
 
 &lt;p&gt;If no arguments are passed to rinoget(), it will simply get the last file that was saved. Note that the last file need not have been saved using MATLAB, making RinoCloud a good option for quickly moving data between different computers and programs.&lt;/p&gt;
 
-&lt;p&gt;If the last file saved was the matrix from the previous section, you can use ‘rinoget()’ as follows:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-&amp;gt;&amp;gt; DownloadedMatrix = rinoget();
-&amp;gt;&amp;gt; DownloadedMatrix
+&lt;p&gt;If the last file saved was the matrix from the previous section, you can use ‘rinoget()’ as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&amp;gt;&amp;gt;&amp;gt; DownloadedMatrix = rinoget();
+&amp;gt;&amp;gt;&amp;gt; DownloadedMatrix
 DowloadedMatrix = 
     1   2   3
     4   5   6
     7   8   9
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;For arbitrary file types, or if ‘parse’ is set to ‘false’, rinoget() will simple open the file. For example, if the last saved file was littletalks.mp3, then:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-MusicFile = rinoget(&#39;parse&#39;, &#39;false&#39;);
-&lt;/code&gt;
-performs the same function as:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-MusicFile = fopen(littletalks.mp3);
-&lt;/code&gt;
-if the file were saved locally.&lt;/p&gt;
+&lt;p&gt;For arbitrary file types, or if ‘parse’ is set to ‘false’, rinoget() will simple open the file. For example, if the last saved file was littletalks.mp3, then:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&amp;gt;&amp;gt;&amp;gt; MusicFile = rinoget(&#39;parse&#39;, &#39;false&#39;);
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;performs the same function as:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&amp;gt;&amp;gt;&amp;gt; MusicFile = fopen(littletalks.mp3);
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;if the file were saved locally.&lt;/p&gt;
 
 &lt;p&gt;If you want to download a file that is not the most recent file, you can use its file ID, which you can find using the web interface.&lt;/p&gt;
 
-&lt;p&gt;For example, to download the file with the ID ‘63543’, you would enter:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-File = rinoget(63543, &#39;parse&#39;, &#39;false&#39;);
+&lt;p&gt;For example, to download the file with the ID ‘63543’, you would enter:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&amp;gt;&amp;gt;&amp;gt; File = rinoget(63543, &#39;parse&#39;, &#39;false&#39;);
 &lt;/code&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;coming-soon&quot;&gt;Coming soon…&lt;/h1&gt;
