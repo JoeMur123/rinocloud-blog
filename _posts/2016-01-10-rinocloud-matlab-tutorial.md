@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Matlab Rinocloud tutorial"
+date:   2016-01-08 17:34:57 +0000
+author: Jamie
+categories: jekyll update
+---
+
+
 # The RinoCloud-MATLAB Interface
 You can save and load data files from RinoCloud from within MATLAB using the RinoCloud-MATLAB interface. To get started, download the [RinoCloud-MATLAB interface folder](www.LinkGoesHere.com).
 
