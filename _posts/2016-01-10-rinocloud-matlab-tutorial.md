@@ -111,22 +111,3 @@ Our aim is to streamline science by helping scientists to save, organise and col
 
 We are also continuously improving all of our interfaces, so if you think of a feature that would be useful for your research, let us know.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
