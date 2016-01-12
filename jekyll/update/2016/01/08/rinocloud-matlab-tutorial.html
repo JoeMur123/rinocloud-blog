@@ -8,10 +8,10 @@
 
   <title>Matlab Rinocloud tutorial</title>
   <meta name="description" content="The RinoCloud-MATLAB InterfaceYou can save and load data files from RinoCloud from within MATLAB using the RinoCloud-MATLAB interface. To get started, downlo...">
-
+  <link rel="shortcut icon" href="https://s3-eu-west-1.amazonaws.com/rinocloud/static/Rreverse.png">
   <link rel="stylesheet" href="/rinocloud-tutorials/css/main.css">
   <link rel="canonical" href="http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/08/rinocloud-matlab-tutorial.html">
-  <link rel="alternate" type="application/rss+xml" title="Rinocloud tutorials" href="http://rinocloud.com/rinocloud-tutorials/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Rinocloud Tutorials" href="http://rinocloud.com/rinocloud-tutorials/feed.xml">
 </head>
 
 
@@ -21,7 +21,9 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/rinocloud-tutorials/">Rinocloud tutorials</a>
+    <a class="site-title" href="/rinocloud-tutorials/">
+      <span style="margin-top:4px;">Rinocloud Tutorials</span>
+    </a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -33,7 +35,7 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="https://rinocloud.com">rinocloud.com</a>
+        <a class="page-link" href="https://rinocloud.com">go to rinocloud.com</a>
         <!-- 
           
           <a class="page-link" href="/rinocloud-tutorials/about/">About</a>
@@ -82,71 +84,59 @@
 
 <p>Saving and arbitrary file type:</p>
 
-<p><code class="highlighter-rouge">
-&gt;&gt;&gt; MusicFile = fopen(littletalks.mp3);
-&gt;&gt;&gt; rinosave(MusicFile);
-</code></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">MusicFile</span> <span class="o">=</span> <span class="n">fopen</span><span class="p">(</span><span class="n">littletalks</span><span class="o">.</span><span class="n">mp3</span><span class="p">);</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">rinosave</span><span class="p">(</span><span class="n">MusicFile</span><span class="p">);</span></code></pre></figure>
 
 <p>This saves littletalks.mp3 to RinoCloud.</p>
 
 <p>Saving MATLAB matrix:</p>
 
-<p><code class="highlighter-rouge">
-&gt;&gt;&gt; Matrix = [1,2,3;4,5,6;7,8,9];
-&gt;&gt;&gt; rinosave(Matrix);
-</code></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">Matrix</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">;</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">;</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">];</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">rinosave</span><span class="p">(</span><span class="n">Matrix</span><span class="p">);</span></code></pre></figure>
 
 <p>This saves the matrix to RinoCloud as a csv file called Matrix.txt.</p>
 
-<h2 id="saving-metadata">Saving Metadata</h2>
-<p>It can sometimes be useful to save metadata with data you save. For example, if you save a matrix that is the result of a simulation, you may wish to save the matrix with the parameters used in the simulation. Metadata can be saved using key-value pairs in a cell array. For example:</p>
+<h3 id="saving-metadata">Saving Metadata</h3>
 
-<p><code class="highlighter-rouge">
-&gt;&gt;&gt; rinosave(Matrix, 'metadata', {'Laser power', '1.23 W', 'Magnetic field', '0.25 T'});
-</code></p>
+<p>It is generally useful to save metadata with your data, if possible. For example, if you save a matrix that is the result of a simulation, you may wish to save the matrix with the parameters used in the simulation. Metadata can be saved using key-value pairs in a cell array. For example:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">rinosave</span><span class="p">(</span><span class="n">Matrix</span><span class="p">,</span> <span class="s">'metadata'</span><span class="p">,</span>
+             <span class="p">{</span><span class="s">'Laser power'</span><span class="p">,</span> <span class="s">'1.23 W'</span><span class="p">,</span> <span class="s">'Magnetic field'</span><span class="p">,</span> <span class="s">'0.25 T'</span><span class="p">});</span></code></pre></figure>
 
 <p>will save the matrix to RinoCloud with the associated metadata specifying a laser power of 1.23 W and a magnetic field of 0.25 T. You can sort and search by metadata parameters using the RinoCloud web interface.</p>
 
 <h2 id="tags">Tags</h2>
 <p>As well as saving metadata, you can save data with tags to help with searching. For example, if you wanted to save a matrix with the tags ‘good data’ and ‘high power’, you simply include them in a cell array:</p>
 
-<p><code class="highlighter-rouge">
-&gt;&gt;&gt; rinosave(Matrix, 'tags', {'good data', 'high power'});
-</code></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">rinosave</span><span class="p">(</span><span class="n">Matrix</span><span class="p">,</span> <span class="s">'tags'</span><span class="p">,</span> <span class="p">{</span><span class="s">'good data'</span><span class="p">,</span> <span class="s">'high power'</span><span class="p">});</span></code></pre></figure>
 
 <p>Of course, tags and metadata can be saved at the same time:</p>
 
-<p><code class="highlighter-rouge">
-&gt;&gt;&gt; rinosave(Matrix, 'metadata', {'Laser power', '1.23 W', 'Magnetic field', '0.25 T'}, 'tags', {'good data', 'high power'});
-</code></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">rinosave</span><span class="p">(</span><span class="n">Matrix</span><span class="p">,</span> <span class="s">'metadata'</span><span class="p">,</span> <span class="p">{</span><span class="s">'Laser power'</span><span class="p">,</span> <span class="s">'1.23 W'</span><span class="p">,</span> <span class="s">'Magnetic field'</span><span class="p">,</span> <span class="s">'0.25 T'</span><span class="p">},</span>
+             <span class="s">'tags'</span><span class="p">,</span> <span class="p">{</span><span class="s">'good data'</span><span class="p">,</span> <span class="s">'high power'</span><span class="p">});</span></code></pre></figure>
 
 <h1 id="rinoget">rinoget()</h1>
+
 <p>You can download and import files directly into MATLAB from RinoCloud using the rinoget() function. In general rinoget() will simply read the spcified file, but in the case of a csv file, if will attempt to convert the file to a MATLAB matrix automatically. You can disable this behaviour by including (‘parse’, ‘false’) in the function.</p>
 
 <p>If no arguments are passed to rinoget(), it will simply get the last file that was saved. Note that the last file need not have been saved using MATLAB, making RinoCloud a good option for quickly moving data between different computers and programs.</p>
 
 <p>If the last file saved was the matrix from the previous section, you can use ‘rinoget()’ as follows:</p>
 
-<p><code class="highlighter-rouge">
-&gt;&gt;&gt; DownloadedMatrix = rinoget();
-&gt;&gt;&gt; DownloadedMatrix
-DowloadedMatrix = 
-    1   2   3
-    4   5   6
-    7   8   9
-</code></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">DownloadedMatrix</span> <span class="o">=</span> <span class="n">rinoget</span><span class="p">();</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">DownloadedMatrix</span>
+<span class="n">DowloadedMatrix</span> <span class="o">=</span>
+    <span class="mi">1</span>   <span class="mi">2</span>   <span class="mi">3</span>
+    <span class="mi">4</span>   <span class="mi">5</span>   <span class="mi">6</span>
+    <span class="mi">7</span>   <span class="mi">8</span>   <span class="mi">9</span></code></pre></figure>
 
 <p>For arbitrary file types, or if ‘parse’ is set to ‘false’, rinoget() will simple open the file. For example, if the last saved file was littletalks.mp3, then:</p>
 
-<p><code class="highlighter-rouge">
-&gt;&gt;&gt; MusicFile = rinoget('parse', 'false');
-</code></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">MusicFile</span> <span class="o">=</span> <span class="n">rinoget</span><span class="p">(</span><span class="s">'parse'</span><span class="p">,</span> <span class="s">'false'</span><span class="p">);</span></code></pre></figure>
 
 <p>performs the same function as:</p>
 
-<p><code class="highlighter-rouge">
-&gt;&gt;&gt; MusicFile = fopen(littletalks.mp3);
-</code></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">MusicFile</span> <span class="o">=</span> <span class="n">fopen</span><span class="p">(</span><span class="n">littletalks</span><span class="o">.</span><span class="n">mp3</span><span class="p">);</span></code></pre></figure>
 
 <p>if the file were saved locally.</p>
 
@@ -154,19 +144,16 @@ DowloadedMatrix =
 
 <p>For example, to download the file with the ID ‘63543’, you would enter:</p>
 
-<p><code class="highlighter-rouge">
-&gt;&gt;&gt; File = rinoget(63543, 'parse', 'false');
-</code></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">File</span> <span class="o">=</span> <span class="n">rinoget</span><span class="p">(</span><span class="mi">63543</span><span class="p">,</span> <span class="s">'parse'</span><span class="p">,</span> <span class="s">'false'</span><span class="p">);</span></code></pre></figure>
 
 <h1 id="coming-soon">Coming soon…</h1>
-<p>We’re adding improvements the RinoCloud-MATLAB Interface to make RinoCloud an even more useful tool. 
+<p>We’re adding improvements the RinoCloud-MATLAB Interface to make RinoCloud an even more useful tool.
 Soon we will be adding the capability to download multiple files at once. We will also be adding an ‘append’ feature to allow you to add new data to a saved file. This will mean that you can use MATLAB and RinoCloud to remotely record data in real time.</p>
 
 <h2 id="other-future-features">Other future features</h2>
 <p>Our aim is to streamline science by helping scientists to save, organise and collect their data. Every lab is unique, so we have made the RinoCloud-MATLAB Interface entirely open source so that you can alter it to suit your needs.</p>
 
 <p>We are also continuously improving all of our interfaces, so if you think of a feature that would be useful for your research, let us know.</p>
-
 
   </div>
 
