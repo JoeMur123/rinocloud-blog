@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Saving data with numpy vstack"
-date:   2016-01-08 17:34:57 +0000
+date:   2016-01-12 17:34:57 +0000
 author: Eoin
 categories: jekyll update
 ---

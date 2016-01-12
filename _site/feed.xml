@@ -5,8 +5,8 @@
     <description></description>
     <link>http://rinocloud.com/rinocloud-tutorials/</link>
     <atom:link href="http://rinocloud.com/rinocloud-tutorials/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Jan 2016 18:49:06 +0000</pubDate>
-    <lastBuildDate>Tue, 12 Jan 2016 18:49:06 +0000</lastBuildDate>
+    <pubDate>Tue, 12 Jan 2016 18:49:58 +0000</pubDate>
+    <lastBuildDate>Tue, 12 Jan 2016 18:49:58 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -87,9 +87,9 @@ into different programs.&lt;/p&gt;
 
 &lt;p&gt;This is a quick and easy way to get arrays in and out of files from numpy. It keeps the files portable for use with other programs.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 08 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/08/saving-data-with-numpy.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/08/saving-data-with-numpy.html</guid>
+        <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
+        <link>http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/12/saving-data-with-numpy.html</link>
+        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/12/saving-data-with-numpy.html</guid>
         
         
         <category>jekyll</category>
@@ -190,9 +190,9 @@ Soon we will be adding the capability to download multiple files at once. We wil
 
 &lt;p&gt;We are also continuously improving all of our interfaces, so if you think of a feature that would be useful for your research, let us know.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 08 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/08/rinocloud-matlab-tutorial.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/08/rinocloud-matlab-tutorial.html</guid>
+        <pubDate>Sun, 10 Jan 2016 17:34:57 +0000</pubDate>
+        <link>http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/10/rinocloud-matlab-tutorial.html</link>
+        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/10/rinocloud-matlab-tutorial.html</guid>
         
         
         <category>jekyll</category>

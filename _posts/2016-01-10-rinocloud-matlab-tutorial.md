@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Matlab Rinocloud tutorial"
-date:   2016-01-08 17:34:57 +0000
+date:   2016-01-10 17:34:57 +0000
 author: Jamie
 categories: jekyll update
 ---
