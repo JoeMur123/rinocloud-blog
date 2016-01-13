@@ -5,8 +5,8 @@
     <description></description>
     <link>http://rinocloud.com/rinocloud-tutorials/</link>
     <atom:link href="http://rinocloud.com/rinocloud-tutorials/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jan 2016 13:50:06 +0000</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2016 13:50:06 +0000</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2016 13:51:37 +0000</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2016 13:51:37 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -88,8 +88,8 @@ into different programs.&lt;/p&gt;
 &lt;p&gt;This is a quick and easy way to get arrays in and out of files from numpy. It keeps the files portable for use with other programs.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/12/saving-data-with-numpy.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/12/saving-data-with-numpy.html</guid>
+        <link>http://rinocloud.com/rinocloud-tutorials/saving-data-with-numpy</link>
+        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/saving-data-with-numpy</guid>
         
         
         <category>jekyll</category>
@@ -191,8 +191,8 @@ Soon we will be adding the capability to download multiple files at once. We wil
 &lt;p&gt;We are also continuously improving all of our interfaces, so if you think of a feature that would be useful for your research, let us know.&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/10/rinocloud-matlab-tutorial.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/10/rinocloud-matlab-tutorial.html</guid>
+        <link>http://rinocloud.com/rinocloud-tutorials/rinocloud-matlab-tutorial</link>
+        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/rinocloud-matlab-tutorial</guid>
         
         
         <category>jekyll</category>
@@ -337,8 +337,8 @@ Soon we will be adding the capability to download multiple files at once. We wil
 &lt;p&gt;Thats is, thats how you get data in and out of Rinocloud. If you have any questions, shoot us up on &lt;a href=&quot;https://twitter.com/rinocloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 08 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/08/rinocloud-python-tutorial.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/jekyll/update/2016/01/08/rinocloud-python-tutorial.html</guid>
+        <link>http://rinocloud.com/rinocloud-tutorials/rinocloud-python-tutorial</link>
+        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/rinocloud-python-tutorial</guid>
         
         
         <category>jekyll</category>
