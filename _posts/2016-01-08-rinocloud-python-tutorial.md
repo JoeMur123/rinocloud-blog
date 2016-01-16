@@ -19,10 +19,10 @@ To get access we need to add an authentication header to each request. Go to the
 
 ### Accessing rinocloud
 
-Get your API access token at [https://rinocloud.com/api/1/users/token/](https://rinocloud.com/api/1/users/token/) if your logged in to rinocloud.
+Get your API access token at [https://early.rinocloud.com/integrations](https://early.rinocloud.com/integrations) if your logged in to rinocloud.
 
 {% highlight python %}
-    # get your token at https://rinocloud.com/api/1/users/token/
+    # get your token at https://early.rinocloud.com/integrations
     token = '<your token>'
     # we make some headers to be sent with each http request.
     headers = {

@@ -15,7 +15,7 @@ These setup instructions are for OS X devices. Instructions for windows machines
 
 Once you have signed in to RinoCloud and downloaded the RinoCloud-MATLAB interface folder, add the folder and subfolders to the MATLAB path.
 
-Once you have done this, get your API Token [here](https://rinocloud.com/api/1/users/token/). Copy your API token and paste it into the file called APIToken.txt, which is found in the RinoCloud-MATLAB Interface folder. Remember to keep this token secret, anyone with acess to the API token can see and modify your data.
+Once you have done this, get your API Token [here](https://early.rinocloud.com/integrations). Copy your API token and paste it into the file called APIToken.txt, which is found in the RinoCloud-MATLAB Interface folder. Remember to keep this token secret, anyone with acess to the API token can see and modify your data.
 
 **That's it!** You're all set up and ready to go. See below for guides to using the different functions in the RinoCloud-MATLAB Interface.
 
