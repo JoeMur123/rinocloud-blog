@@ -5,8 +5,8 @@
     <description></description>
     <link>http://rinocloud.com/rinocloud-tutorials/</link>
     <atom:link href="http://rinocloud.com/rinocloud-tutorials/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jan 2016 20:02:41 +0000</pubDate>
-    <lastBuildDate>Sat, 16 Jan 2016 20:02:41 +0000</lastBuildDate>
+    <pubDate>Sun, 17 Jan 2016 18:44:30 +0000</pubDate>
+    <lastBuildDate>Sun, 17 Jan 2016 18:44:30 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -60,7 +60,7 @@ We have been using it internally for a few weeks to test the rinocloud api.&lt;/
 
 &lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
 
-&lt;p&gt;Before connecting to Rinocloud, valid connection and authentication parameters must be set in &lt;strong&gt;Rino client global variable.vi&lt;/strong&gt;.  The global variable contains essential communication parameters: (&lt;strong&gt;Token&lt;/strong&gt;) an authentication token and (&lt;a href=&quot;https://rinocloud.com/api/1/objects/&quot;&gt;&lt;strong&gt;Rino url&lt;/strong&gt;&lt;/a&gt;) an API address. Both parameters are required. Token can be obtained by registered and logged in users from &lt;a href=&quot;https://early.rinocloud.com/integrations&quot;&gt;https://early.rinocloud.com/integrations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Before connecting to Rinocloud, valid connection and authentication parameters must be set in &lt;strong&gt;Rino client global variable.vi&lt;/strong&gt;.  The global variable contains essential communication parameters: (&lt;strong&gt;Token&lt;/strong&gt;) an authentication token and (&lt;a href=&quot;https://rinocloud.com/api/1/objects/&quot;&gt;&lt;strong&gt;Rino url&lt;/strong&gt;&lt;/a&gt;) an API address. Both parameters are required. Token can be obtained by registered and logged in users from &lt;a href=&quot;https://rinocloud.com/integrations&quot;&gt;https://rinocloud.com/integrations&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/v8NieWn.png&quot; alt=&quot;Global variable&quot; /&gt;&lt;/p&gt;
 
@@ -243,7 +243,7 @@ into different programs.&lt;/p&gt;
 
 &lt;p&gt;Once you have signed in to RinoCloud and downloaded the RinoCloud-MATLAB interface folder, add the folder and subfolders to the MATLAB path.&lt;/p&gt;
 
-&lt;p&gt;Once you have done this, get your API Token &lt;a href=&quot;https://early.rinocloud.com/integrations&quot;&gt;here&lt;/a&gt;. Copy your API token and paste it into the file called APIToken.txt, which is found in the RinoCloud-MATLAB Interface folder. Remember to keep this token secret, anyone with acess to the API token can see and modify your data.&lt;/p&gt;
+&lt;p&gt;Once you have done this, get your API Token &lt;a href=&quot;https://rinocloud.com/integrations&quot;&gt;here&lt;/a&gt;. Copy your API token and paste it into the file called APIToken.txt, which is found in the RinoCloud-MATLAB Interface folder. Remember to keep this token secret, anyone with acess to the API token can see and modify your data.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;That’s it!&lt;/strong&gt; You’re all set up and ready to go. See below for guides to using the different functions in the RinoCloud-MATLAB Interface.&lt;/p&gt;
 
@@ -351,9 +351,9 @@ Soon we will be adding the capability to download multiple files at once. We wil
 
 &lt;h3 id=&quot;accessing-rinocloud&quot;&gt;Accessing rinocloud&lt;/h3&gt;
 
-&lt;p&gt;Get your API access token at &lt;a href=&quot;https://early.rinocloud.com/integrations&quot;&gt;https://early.rinocloud.com/integrations&lt;/a&gt; if your logged in to rinocloud.&lt;/p&gt;
+&lt;p&gt;Get your API access token at &lt;a href=&quot;https://rinocloud.com/integrations&quot;&gt;https://rinocloud.com/integrations&lt;/a&gt; if your logged in to rinocloud.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;c&quot;&gt;# get your token at https://early.rinocloud.com/integrations&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;c&quot;&gt;# get your token at https://rinocloud.com/integrations&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&amp;lt;your token&amp;gt;&#39;&lt;/span&gt;
     &lt;span class=&quot;c&quot;&gt;# we make some headers to be sent with each http request.&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
