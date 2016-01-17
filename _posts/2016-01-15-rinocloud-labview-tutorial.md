@@ -37,7 +37,7 @@ The functionality of each Virtual Instrument is described below. After getting f
 
 ## Getting started
 
-Before connecting to Rinocloud, valid connection and authentication parameters must be set in __Rino client global variable.vi__.  The global variable contains essential communication parameters: (__Token__) an authentication token and ([__Rino url__](https://rinocloud.com/api/1/objects/)) an API address. Both parameters are required. Token can be obtained by registered and logged in users from [https://early.rinocloud.com/integrations](https://early.rinocloud.com/integrations)
+Before connecting to Rinocloud, valid connection and authentication parameters must be set in __Rino client global variable.vi__.  The global variable contains essential communication parameters: (__Token__) an authentication token and ([__Rino url__](https://rinocloud.com/api/1/objects/)) an API address. Both parameters are required. Token can be obtained by registered and logged in users from [https://rinocloud.com/integrations](https://rinocloud.com/integrations)
 
 ![Global variable](http://i.imgur.com/v8NieWn.png)
 
