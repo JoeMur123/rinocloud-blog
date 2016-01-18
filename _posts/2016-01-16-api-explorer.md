@@ -6,7 +6,7 @@ author: Eoin
 categories: jekyll update
 ---
 
-## Web based api explorer for developers
+## Rinocloud API explorer for developers
 
 We took advantage of the awesome open source [dropbox api explorer](https://github.com/dropbox/dropbox-api-v2-explorer).
 We have been using it internally for a few weeks to test the rinocloud api.

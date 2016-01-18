@@ -3,15 +3,74 @@
   <channel>
     <title>Rinocloud Tutorials</title>
     <description></description>
-    <link>http://rinocloud.com/rinocloud-tutorials/</link>
-    <atom:link href="http://rinocloud.com/rinocloud-tutorials/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Jan 2016 18:44:30 +0000</pubDate>
-    <lastBuildDate>Sun, 17 Jan 2016 18:44:30 +0000</lastBuildDate>
+    <link>http://rinocloud.com/tutorials/</link>
+    <atom:link href="http://rinocloud.com/tutorials/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Jan 2016 12:34:04 +0000</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2016 12:34:04 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
+        <title>Why I left my PhD at Cambridge to start Rinocloud</title>
+        <description>&lt;p&gt;I worked hard to get into Cambridge to do my PhD. I became an EU fellow, was
+assigned a two of the top scientists in the world in semiconductors.&lt;/p&gt;
+
+&lt;p&gt;I got to work in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cavendish_Laboratory&quot;&gt;Cavendish
+lab&lt;/a&gt;, my peers were some of
+the best researchers in the world in their field.&lt;/p&gt;
+
+&lt;p&gt;I love science. The investigation. The analysis. I love the carrying out of
+experiments. Watching the data being generated. but…&lt;/p&gt;
+
+&lt;p&gt;Data management is a pain. The corralling of the data after it is generated and
+the busy unproductive work of preparing it and getting it organised for
+analysis. The hacking needed to configure lab information systems and integrate
+instruments. The cutting and pasting of long laborious files into generic
+storage systems. The inefficient  sharing of data via files, memory sticks and
+email. The dreaded search for data. A colleague working on another project left
+and my team were asked to take over his research. It took us 6 weeks to figure
+out where his data was and what it contained. The data management was so bad
+that we could not verify the results of his data and the project could not
+continue.&lt;/p&gt;
+
+&lt;p&gt;I checked to see if there was system out there that would organise my data for
+me, and  plug into all the different programs I use. I couldn’t find anything.
+If I had these problems I figured researchers the world over were experiencing
+the same. I dropped out of my PhD and am now doing a start up building a SaaS
+solution for every day scientific data management.&lt;/p&gt;
+
+&lt;p&gt;Our team have built and rolled out an MVP that deals with many of the issues we
+lived with as researchers. It looks like we’ve hit a chord. Friends and
+colleagues in some of the top research universities in the world have encouraged
+us to build and keep building the product. Many are using and testing in closed
+beta. More have signed up to be rolled out as testers. We have a rigorous
+feedback loop and the discipline now for us it to make sure we keep to a well
+defined roadmap because we’re getting so many suggestions for improvements and
+new features to solve the myriad of everyday data management problems
+researchers are experiencing.&lt;/p&gt;
+
+&lt;p&gt;So, the problems we’re solving are resonating. Hence the big opportunity to
+build a business.&lt;/p&gt;
+
+&lt;p&gt;I’m happy to talk to anyone about data, science, starting a business and share
+war stories and insights. We’re accelerating releases of beta versions now and
+have plugins for Python, Matlab and Labview. Data being poured into the
+rinocloud hub has full metadata and we have a clever search facility. Rolling
+out soon are auto plotting of data, an electronic notebook and a whole raft of
+collaboration features.  Take a look. &lt;a href=&quot;https://rinocloud.com/&quot;&gt;Sign up. It’s
+free!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Jan 2016 07:34:57 +0000</pubDate>
+        <link>http://rinocloud.com/tutorials/why-i-started-rinocloud</link>
+        <guid isPermaLink="true">http://rinocloud.com/tutorials/why-i-started-rinocloud</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
         <title>API explorer</title>
-        <description>&lt;h2 id=&quot;web-based-api-explorer-for-developers&quot;&gt;Web based api explorer for developers&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;rinocloud-api-explorer-for-developers&quot;&gt;Rinocloud API explorer for developers&lt;/h2&gt;
 
 &lt;p&gt;We took advantage of the awesome open source &lt;a href=&quot;https://github.com/dropbox/dropbox-api-v2-explorer&quot;&gt;dropbox api explorer&lt;/a&gt;.
 We have been using it internally for a few weeks to test the rinocloud api.&lt;/p&gt;
@@ -19,8 +78,8 @@ We have been using it internally for a few weeks to test the rinocloud api.&lt;/
 &lt;p&gt;Its live now at &lt;a href=&quot;https://rinocloud.github.io/rinocloud-api-explorer/&quot;&gt;https://rinocloud.github.io/rinocloud-api-explorer/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/rinocloud-tutorials/api-explorer</link>
-        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/api-explorer</guid>
+        <link>http://rinocloud.com/tutorials/api-explorer</link>
+        <guid isPermaLink="true">http://rinocloud.com/tutorials/api-explorer</guid>
         
         
         <category>jekyll</category>
@@ -134,8 +193,8 @@ The metadata cluster can be populated using &lt;em&gt;Bundly By Name&lt;/em&gt; 
 &lt;p&gt;&lt;strong&gt;Data saved&lt;/strong&gt; is a boolean which returns True if the record was saved successfully, False if not.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/rinocloud-tutorials/rinocloud-labview-tutorial</link>
-        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/rinocloud-labview-tutorial</guid>
+        <link>http://rinocloud.com/tutorials/rinocloud-labview-tutorial</link>
+        <guid isPermaLink="true">http://rinocloud.com/tutorials/rinocloud-labview-tutorial</guid>
         
         
         <category>jekyll</category>
@@ -223,8 +282,8 @@ into different programs.&lt;/p&gt;
 &lt;p&gt;This is a quick and easy way to get arrays in and out of files from numpy. It keeps the files portable for use with other programs.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/rinocloud-tutorials/saving-data-with-numpy</link>
-        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/saving-data-with-numpy</guid>
+        <link>http://rinocloud.com/tutorials/saving-data-with-numpy</link>
+        <guid isPermaLink="true">http://rinocloud.com/tutorials/saving-data-with-numpy</guid>
         
         
         <category>jekyll</category>
@@ -326,8 +385,8 @@ Soon we will be adding the capability to download multiple files at once. We wil
 &lt;p&gt;We are also continuously improving all of our interfaces, so if you think of a feature that would be useful for your research, let us know.&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/rinocloud-tutorials/rinocloud-matlab-tutorial</link>
-        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/rinocloud-matlab-tutorial</guid>
+        <link>http://rinocloud.com/tutorials/rinocloud-matlab-tutorial</link>
+        <guid isPermaLink="true">http://rinocloud.com/tutorials/rinocloud-matlab-tutorial</guid>
         
         
         <category>jekyll</category>
@@ -472,8 +531,8 @@ Soon we will be adding the capability to download multiple files at once. We wil
 &lt;p&gt;Thats is, thats how you get data in and out of Rinocloud. If you have any questions, shoot us up on &lt;a href=&quot;https://twitter.com/rinocloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 08 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/rinocloud-tutorials/rinocloud-python-tutorial</link>
-        <guid isPermaLink="true">http://rinocloud.com/rinocloud-tutorials/rinocloud-python-tutorial</guid>
+        <link>http://rinocloud.com/tutorials/rinocloud-python-tutorial</link>
+        <guid isPermaLink="true">http://rinocloud.com/tutorials/rinocloud-python-tutorial</guid>
         
         
         <category>jekyll</category>
