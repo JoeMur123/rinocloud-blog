@@ -1,4 +1,5 @@
 jekyll build
+cp CNAME _site/CNAME
 git add .
 git commit -m "edit"
 git push origin master
