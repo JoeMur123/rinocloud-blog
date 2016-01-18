@@ -3,10 +3,10 @@
   <channel>
     <title>Rinocloud Tutorials</title>
     <description></description>
-    <link>http://rinocloud.com/tutorials/</link>
-    <atom:link href="http://rinocloud.com/tutorials/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jan 2016 12:37:40 +0000</pubDate>
-    <lastBuildDate>Mon, 18 Jan 2016 12:37:40 +0000</lastBuildDate>
+    <link>http://rinocloud.com/</link>
+    <atom:link href="http://rinocloud.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Jan 2016 12:38:26 +0000</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2016 12:38:26 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -60,8 +60,8 @@ collaboration features.  Take a look. &lt;a href=&quot;https://rinocloud.com/&qu
 free!&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Jan 2016 07:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/tutorials/why-i-started-rinocloud</link>
-        <guid isPermaLink="true">http://rinocloud.com/tutorials/why-i-started-rinocloud</guid>
+        <link>http://rinocloud.com/why-i-started-rinocloud</link>
+        <guid isPermaLink="true">http://rinocloud.com/why-i-started-rinocloud</guid>
         
         
         <category>blog</category>
@@ -78,8 +78,8 @@ We have been using it internally for a few weeks to test the rinocloud api.&lt;/
 &lt;p&gt;Its live now at &lt;a href=&quot;https://rinocloud.github.io/rinocloud-api-explorer/&quot;&gt;https://rinocloud.github.io/rinocloud-api-explorer/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/tutorials/api-explorer</link>
-        <guid isPermaLink="true">http://rinocloud.com/tutorials/api-explorer</guid>
+        <link>http://rinocloud.com/api-explorer</link>
+        <guid isPermaLink="true">http://rinocloud.com/api-explorer</guid>
         
         
         <category>jekyll</category>
@@ -193,8 +193,8 @@ The metadata cluster can be populated using &lt;em&gt;Bundly By Name&lt;/em&gt; 
 &lt;p&gt;&lt;strong&gt;Data saved&lt;/strong&gt; is a boolean which returns True if the record was saved successfully, False if not.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/tutorials/rinocloud-labview-tutorial</link>
-        <guid isPermaLink="true">http://rinocloud.com/tutorials/rinocloud-labview-tutorial</guid>
+        <link>http://rinocloud.com/rinocloud-labview-tutorial</link>
+        <guid isPermaLink="true">http://rinocloud.com/rinocloud-labview-tutorial</guid>
         
         
         <category>jekyll</category>
@@ -282,8 +282,8 @@ into different programs.&lt;/p&gt;
 &lt;p&gt;This is a quick and easy way to get arrays in and out of files from numpy. It keeps the files portable for use with other programs.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/tutorials/saving-data-with-numpy</link>
-        <guid isPermaLink="true">http://rinocloud.com/tutorials/saving-data-with-numpy</guid>
+        <link>http://rinocloud.com/saving-data-with-numpy</link>
+        <guid isPermaLink="true">http://rinocloud.com/saving-data-with-numpy</guid>
         
         
         <category>jekyll</category>
@@ -385,8 +385,8 @@ Soon we will be adding the capability to download multiple files at once. We wil
 &lt;p&gt;We are also continuously improving all of our interfaces, so if you think of a feature that would be useful for your research, let us know.&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/tutorials/rinocloud-matlab-tutorial</link>
-        <guid isPermaLink="true">http://rinocloud.com/tutorials/rinocloud-matlab-tutorial</guid>
+        <link>http://rinocloud.com/rinocloud-matlab-tutorial</link>
+        <guid isPermaLink="true">http://rinocloud.com/rinocloud-matlab-tutorial</guid>
         
         
         <category>jekyll</category>
@@ -531,8 +531,8 @@ Soon we will be adding the capability to download multiple files at once. We wil
 &lt;p&gt;Thats is, thats how you get data in and out of Rinocloud. If you have any questions, shoot us up on &lt;a href=&quot;https://twitter.com/rinocloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 08 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/tutorials/rinocloud-python-tutorial</link>
-        <guid isPermaLink="true">http://rinocloud.com/tutorials/rinocloud-python-tutorial</guid>
+        <link>http://rinocloud.com/rinocloud-python-tutorial</link>
+        <guid isPermaLink="true">http://rinocloud.com/rinocloud-python-tutorial</guid>
         
         
         <category>jekyll</category>
