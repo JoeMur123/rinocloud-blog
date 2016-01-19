@@ -1,17 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rinocloud</title>
-    <description></description>
-    <link>http://rinocloud.com/</link>
-    <atom:link href="http://rinocloud.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Jan 2016 11:50:34 +0000</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2016 11:50:34 +0000</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
-    
-      <item>
-        <title>Why I left my PhD at Cambridge to start Rinocloud</title>
-        <description>&lt;p&gt;I worked hard to get into Cambridge to do my PhD. I became a EU Marie Curie
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Rinocloud</title>
+ <link href="http://rinocloud.com/atom.xml" rel="self"/>
+ <link href="http://rinocloud.com/"/>
+ <updated>2016-01-19T11:50:34+00:00</updated>
+ <id>http://rinocloud.com</id>
+ <author>
+   <name>Eoin Murray</name>
+   <email>eoin@rinocloud.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Why I left my PhD at Cambridge to start Rinocloud</title>
+   <link href="http://rinocloud.com/blog/2016/01/18/why-i-started-rinocloud.html"/>
+   <updated>2016-01-18T07:34:57+00:00</updated>
+   <id>http://rinocloud.com/blog/2016/01/18/why-i-started-rinocloud</id>
+   <content type="html">&lt;p&gt;I worked hard to get into Cambridge to do my PhD. I became a EU Marie Curie
 Fellow of Physics, was assigned two of the top scientists in the world in
 Semiconductors as supervisors. I got to work in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cavendish_Laboratory&quot;&gt;Cavendish
 lab&lt;/a&gt;. My peers were some of
@@ -63,39 +69,29 @@ have plugins for Python, Matlab and Labview. Data being poured into the
 rinocloud hub has full metadata and we have a clever search facility. Rolling
 out soon are auto plotting of data, an electronic notebook and a whole raft of
 collaboration features.  Take a look. &lt;a href=&quot;https://rinocloud.com/&quot;&gt;Sign up. It’s free!&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 Jan 2016 07:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/blog/2016/01/18/why-i-started-rinocloud.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/blog/2016/01/18/why-i-started-rinocloud.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>API explorer</title>
-        <description>&lt;h2 id=&quot;rinocloud-api-explorer-for-developers&quot;&gt;Rinocloud API explorer for developers&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>API explorer</title>
+   <link href="http://rinocloud.com/jekyll/update/2016/01/12/api-explorer.html"/>
+   <updated>2016-01-12T17:34:57+00:00</updated>
+   <id>http://rinocloud.com/jekyll/update/2016/01/12/api-explorer</id>
+   <content type="html">&lt;h2 id=&quot;rinocloud-api-explorer-for-developers&quot;&gt;Rinocloud API explorer for developers&lt;/h2&gt;
 
 &lt;p&gt;We took advantage of the awesome open source &lt;a href=&quot;https://github.com/dropbox/dropbox-api-v2-explorer&quot;&gt;dropbox api explorer&lt;/a&gt;.
 We have been using it internally for a few weeks to test the rinocloud api.&lt;/p&gt;
 
 &lt;p&gt;Its live now at &lt;a href=&quot;https://rinocloud.github.io/rinocloud-api-explorer/&quot;&gt;https://rinocloud.github.io/rinocloud-api-explorer/&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/jekyll/update/2016/01/12/api-explorer.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/jekyll/update/2016/01/12/api-explorer.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Rinocloud Labview tutorial</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rinocloud Labview tutorial</title>
+   <link href="http://rinocloud.com/jekyll/update/2016/01/12/rinocloud-labview-tutorial.html"/>
+   <updated>2016-01-12T17:34:57+00:00</updated>
+   <id>http://rinocloud.com/jekyll/update/2016/01/12/rinocloud-labview-tutorial</id>
+   <content type="html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;The Rinocloud LABView application programming interface (API) library contains VIs which ensure communication with Rinocloud servers by converting measured numerical data and metadata to JSON (JavaScript Object Notation) string and saving to the server. The current version of this library is adapted for a HTTP POST request, which saves &lt;strong&gt;numerical data&lt;/strong&gt; to the Rinocloud database.&lt;/p&gt;
 
@@ -196,21 +192,15 @@ The metadata cluster can be populated using &lt;em&gt;Bundly By Name&lt;/em&gt; 
 &lt;p&gt;&lt;strong&gt;record id&lt;/strong&gt; is an ID of the recent successfully saved record. It can be used for the custom API calls.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Data saved&lt;/strong&gt; is a boolean which returns True if the record was saved successfully, False if not.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/jekyll/update/2016/01/12/rinocloud-labview-tutorial.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/jekyll/update/2016/01/12/rinocloud-labview-tutorial.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Saving data with numpy vstack</title>
-        <description>&lt;h2 id=&quot;saving-multiple-arrays-from-numpy-with-vstack&quot;&gt;Saving multiple arrays from numpy with vstack&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Saving data with numpy vstack</title>
+   <link href="http://rinocloud.com/jekyll/update/2016/01/12/saving-data-with-numpy.html"/>
+   <updated>2016-01-12T17:34:57+00:00</updated>
+   <id>http://rinocloud.com/jekyll/update/2016/01/12/saving-data-with-numpy</id>
+   <content type="html">&lt;h2 id=&quot;saving-multiple-arrays-from-numpy-with-vstack&quot;&gt;Saving multiple arrays from numpy with vstack&lt;/h2&gt;
 
 &lt;p&gt;Say we have a numpy array we want to save to a file&lt;/p&gt;
 
@@ -285,21 +275,15 @@ into different programs.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;z&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loadtxt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;test.txt&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;This is a quick and easy way to get arrays in and out of files from numpy. It keeps the files portable for use with other programs.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/jekyll/update/2016/01/12/saving-data-with-numpy.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/jekyll/update/2016/01/12/saving-data-with-numpy.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Matlab Rinocloud tutorial</title>
-        <description>&lt;h1 id=&quot;the-rinocloud-matlab-interface&quot;&gt;The RinoCloud-MATLAB Interface&lt;/h1&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Matlab Rinocloud tutorial</title>
+   <link href="http://rinocloud.com/jekyll/update/2016/01/10/rinocloud-matlab-tutorial.html"/>
+   <updated>2016-01-10T17:34:57+00:00</updated>
+   <id>http://rinocloud.com/jekyll/update/2016/01/10/rinocloud-matlab-tutorial</id>
+   <content type="html">&lt;h1 id=&quot;the-rinocloud-matlab-interface&quot;&gt;The RinoCloud-MATLAB Interface&lt;/h1&gt;
 &lt;p&gt;You can save and load data files from RinoCloud from within MATLAB using the RinoCloud-MATLAB interface. To get started, download the &lt;a href=&quot;https://rinocloud.com/dl/matlab/&quot;&gt;RinoCloud-MATLAB interface folder&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;setting-up-the-rinocloud-matlab-interface&quot;&gt;Setting up the RinoCloud-MATLAB Interface&lt;/h2&gt;
@@ -388,21 +372,15 @@ Soon we will be adding the capability to download multiple files at once. We wil
 &lt;p&gt;Our aim is to streamline science by helping scientists to save, organise and collect their data. Every lab is unique, so we have made the RinoCloud-MATLAB Interface entirely open source so that you can alter it to suit your needs.&lt;/p&gt;
 
 &lt;p&gt;We are also continuously improving all of our interfaces, so if you think of a feature that would be useful for your research, let us know.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 10 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/jekyll/update/2016/01/10/rinocloud-matlab-tutorial.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/jekyll/update/2016/01/10/rinocloud-matlab-tutorial.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Python Rinocloud tutorial</title>
-        <description>&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Python Rinocloud tutorial</title>
+   <link href="http://rinocloud.com/jekyll/update/2016/01/08/rinocloud-python-tutorial.html"/>
+   <updated>2016-01-08T17:34:57+00:00</updated>
+   <id>http://rinocloud.com/jekyll/update/2016/01/08/rinocloud-python-tutorial</id>
+   <content type="html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;Lets get started on RinoCloud’s API using Python and the &lt;a href=&quot;http://docs.python-requests.org/en/latest/&quot;&gt;requests&lt;/a&gt; library.&lt;/p&gt;
 
 &lt;p&gt;RinoCloud will store your files in a similar fashion as to the filesystem in your computer. The main units of work are files and folders. Files can have a JSON object to hold metadata related to them.&lt;/p&gt;
@@ -534,17 +512,8 @@ Soon we will be adding the capability to download multiple files at once. We wil
 &lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;Thats is, thats how you get data in and out of Rinocloud. If you have any questions, shoot us up on &lt;a href=&quot;https://twitter.com/rinocloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 08 Jan 2016 17:34:57 +0000</pubDate>
-        <link>http://rinocloud.com/jekyll/update/2016/01/08/rinocloud-python-tutorial.html</link>
-        <guid isPermaLink="true">http://rinocloud.com/jekyll/update/2016/01/08/rinocloud-python-tutorial.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+</content>
+ </entry>
+ 
+
+</feed>
