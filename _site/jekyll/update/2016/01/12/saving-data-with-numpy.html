@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      Saving data with numpy vstack &middot; Rinocloud
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Rinocloud" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">Rinocloud</a>
+          <small>tutorials</small>
+          <small><a style="float:right; margin-top:5px;" href="https://rinocloud.com">go to rinocloud.com</a></small>
+        </h3>
+
+      </header>
+
+      <main>
+        <article class="post">
+  <h1 class="post-title">Saving data with numpy vstack</h1>
+  <time datetime="2016-01-12T17:34:57+00:00" class="post-date">12 Jan 2016</time>
+  <div class="post-date">by Eoin</div>
+  <h2 id="saving-multiple-arrays-from-numpy-with-vstack">Saving multiple arrays from numpy with vstack</h2>
+
+<p>Say we have a numpy array we want to save to a file</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span><span class="s">'test.txt'</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span></code></pre></figure>
+
+<p>It will give a file with the following content</p>
+
+<pre>
+0.0e+00
+8.0e+00
+7.0e+00
+6.0e+00
+1.0e+01
+7.0e+00
+9.0e+00
+9.0e+00
+0.0e+00
+3.0e+00
+</pre>
+
+<p>This is great, the column based representation means that its easy to import into csv compatible programs
+like excel, LabView, Matlab and Origin.</p>
+
+<p>But what happens when we want to save two or more arrays together and make sure the file is still easily importable
+into different programs.</p>
+
+<p>If we just use</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span><span class="s">'test.txt'</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span></code></pre></figure>
+
+<p>we get</p>
+
+<pre>
+9.0e+00 9.0e+00 4.0e+00 2.0e+00 0.0e+00 8.0e+00 1.0e+01 2.0e+00 1.0e+00 9.0e+00
+2.0e+00 3.0e+00 1.0e+00 9.0e+00 2.0e+00 5.0e+00 1.0e+01 2.0e+00 8.0e+00 3.0e+00
+9.0e+00 8.0e+00 2.0e+00 7.0e+00 9.0e+00 0.0e+00 6.0e+00 0.0e+00 2.0e+00 3.0e+00
+</pre>
+
+<p>So instead lets use <a href="http://docs.scipy.org/doc/numpy-1.10.1/reference/generated/numpy.vstack.html">numpy vstack</a>.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span><span class="s">'test.txt'</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">((</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span><span class="o">.</span><span class="n">T</span><span class="p">)</span></code></pre></figure>
+
+<p>This gives us a <code class="highlighter-rouge">test.txt</code> with</p>
+
+<pre>
+9.0e+00 2.0e+00 9.0e+00
+9.0e+00 3.0e+00 8.0e+00
+4.0e+00 1.0e+00 2.0e+00
+2.0e+00 9.0e+00 7.0e+00
+0.0e+00 2.0e+00 9.0e+00
+8.0e+00 5.0e+00 0.0e+00
+1.0e+01 1.0e+01 6.0e+00
+2.0e+00 2.0e+00 0.0e+00
+1.0e+00 8.0e+00 2.0e+00
+9.0e+00 3.0e+00 3.0e+00
+</pre>
+
+<p>Which is much more portable, and can be imported into programs like excel easily.</p>
+
+<p>To read the file again using numpy into the arrays use</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s">'test.txt'</span><span class="p">)</span><span class="o">.</span><span class="n">T</span></code></pre></figure>
+
+<p>This is a quick and easy way to get arrays in and out of files from numpy. It keeps the files portable for use with other programs.</p>
+
+</article>
+
+
+<aside class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/blog/2016/01/18/why-i-started-rinocloud.html">
+            Why I left my PhD at Cambridge to start Rinocloud
+            <small><time datetime="2016-01-18T07:34:57+00:00">18 Jan 2016</time></small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/jekyll/update/2016/01/12/api-explorer.html">
+            API explorer
+            <small><time datetime="2016-01-12T17:34:57+00:00">12 Jan 2016</time></small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/jekyll/update/2016/01/12/rinocloud-labview-tutorial.html">
+            Rinocloud Labview tutorial
+            <small><time datetime="2016-01-12T17:34:57+00:00">12 Jan 2016</time></small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</aside>
+
+
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="2016-01-19T11:50:34+00:00">2016</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>

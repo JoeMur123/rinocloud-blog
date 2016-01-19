@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      Matlab Rinocloud tutorial &middot; Rinocloud
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Rinocloud" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">Rinocloud</a>
+          <small>tutorials</small>
+          <small><a style="float:right; margin-top:5px;" href="https://rinocloud.com">go to rinocloud.com</a></small>
+        </h3>
+
+      </header>
+
+      <main>
+        <article class="post">
+  <h1 class="post-title">Matlab Rinocloud tutorial</h1>
+  <time datetime="2016-01-10T17:34:57+00:00" class="post-date">10 Jan 2016</time>
+  <div class="post-date">by Jamie</div>
+  <h1 id="the-rinocloud-matlab-interface">The RinoCloud-MATLAB Interface</h1>
+<p>You can save and load data files from RinoCloud from within MATLAB using the RinoCloud-MATLAB interface. To get started, download the <a href="https://rinocloud.com/dl/matlab/">RinoCloud-MATLAB interface folder</a>.</p>
+
+<h2 id="setting-up-the-rinocloud-matlab-interface">Setting up the RinoCloud-MATLAB Interface</h2>
+<p>These setup instructions are for OS X devices. Instructions for windows machines are coming soon.</p>
+
+<p>Once you have signed in to RinoCloud and downloaded the RinoCloud-MATLAB interface folder, add the folder and subfolders to the MATLAB path.</p>
+
+<p>Once you have done this, get your API Token <a href="https://rinocloud.com/integrations">here</a>. Copy your API token and paste it into the file called APIToken.txt, which is found in the RinoCloud-MATLAB Interface folder. Remember to keep this token secret, anyone with acess to the API token can see and modify your data.</p>
+
+<p><strong>That’s it!</strong> You’re all set up and ready to go. See below for guides to using the different functions in the RinoCloud-MATLAB Interface.</p>
+
+<h1 id="rinosave">rinosave()</h1>
+<p>The rinosave() function is the function used to save data from MATLAB to RinoCloud. rinosave() works with matrices and vectors or any file type. Matrices and vectors are converted into a csv file before uploading so that they can be easily read and used in other programs.</p>
+
+<p>Here are some simple examples of using rinosave() in the MATLAB command window:</p>
+
+<p>Saving and arbitrary file type:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">MusicFile</span> <span class="o">=</span> <span class="n">fopen</span><span class="p">(</span><span class="n">littletalks</span><span class="o">.</span><span class="n">mp3</span><span class="p">);</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">rinosave</span><span class="p">(</span><span class="n">MusicFile</span><span class="p">);</span></code></pre></figure>
+
+<p>This saves littletalks.mp3 to RinoCloud.</p>
+
+<p>Saving MATLAB matrix:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">Matrix</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">;</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">;</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">];</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">rinosave</span><span class="p">(</span><span class="n">Matrix</span><span class="p">);</span></code></pre></figure>
+
+<p>This saves the matrix to RinoCloud as a csv file called Matrix.txt.</p>
+
+<h3 id="saving-metadata">Saving Metadata</h3>
+
+<p>It is generally useful to save metadata with your data, if possible. For example, if you save a matrix that is the result of a simulation, you may wish to save the matrix with the parameters used in the simulation. Metadata can be saved using key-value pairs in a cell array. For example:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">rinosave</span><span class="p">(</span><span class="n">Matrix</span><span class="p">,</span> <span class="s">'metadata'</span><span class="p">,</span>
+             <span class="p">{</span><span class="s">'Laser power'</span><span class="p">,</span> <span class="s">'1.23 W'</span><span class="p">,</span> <span class="s">'Magnetic field'</span><span class="p">,</span> <span class="s">'0.25 T'</span><span class="p">});</span></code></pre></figure>
+
+<p>will save the matrix to RinoCloud with the associated metadata specifying a laser power of 1.23 W and a magnetic field of 0.25 T. You can sort and search by metadata parameters using the RinoCloud web interface.</p>
+
+<h2 id="tags">Tags</h2>
+<p>As well as saving metadata, you can save data with tags to help with searching. For example, if you wanted to save a matrix with the tags ‘good data’ and ‘high power’, you simply include them in a cell array:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">rinosave</span><span class="p">(</span><span class="n">Matrix</span><span class="p">,</span> <span class="s">'tags'</span><span class="p">,</span> <span class="p">{</span><span class="s">'good data'</span><span class="p">,</span> <span class="s">'high power'</span><span class="p">});</span></code></pre></figure>
+
+<p>Of course, tags and metadata can be saved at the same time:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">rinosave</span><span class="p">(</span><span class="n">Matrix</span><span class="p">,</span> <span class="s">'metadata'</span><span class="p">,</span> <span class="p">{</span><span class="s">'Laser power'</span><span class="p">,</span> <span class="s">'1.23 W'</span><span class="p">,</span> <span class="s">'Magnetic field'</span><span class="p">,</span> <span class="s">'0.25 T'</span><span class="p">},</span>
+             <span class="s">'tags'</span><span class="p">,</span> <span class="p">{</span><span class="s">'good data'</span><span class="p">,</span> <span class="s">'high power'</span><span class="p">});</span></code></pre></figure>
+
+<h1 id="rinoget">rinoget()</h1>
+
+<p>You can download and import files directly into MATLAB from RinoCloud using the rinoget() function. In general rinoget() will simply read the spcified file, but in the case of a csv file, if will attempt to convert the file to a MATLAB matrix automatically. You can disable this behaviour by including (‘parse’, ‘false’) in the function.</p>
+
+<p>If no arguments are passed to rinoget(), it will simply get the last file that was saved. Note that the last file need not have been saved using MATLAB, making RinoCloud a good option for quickly moving data between different computers and programs.</p>
+
+<p>If the last file saved was the matrix from the previous section, you can use ‘rinoget()’ as follows:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">DownloadedMatrix</span> <span class="o">=</span> <span class="n">rinoget</span><span class="p">();</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">DownloadedMatrix</span>
+<span class="n">DowloadedMatrix</span> <span class="o">=</span>
+    <span class="mi">1</span>   <span class="mi">2</span>   <span class="mi">3</span>
+    <span class="mi">4</span>   <span class="mi">5</span>   <span class="mi">6</span>
+    <span class="mi">7</span>   <span class="mi">8</span>   <span class="mi">9</span></code></pre></figure>
+
+<p>For arbitrary file types, or if ‘parse’ is set to ‘false’, rinoget() will simple open the file. For example, if the last saved file was littletalks.mp3, then:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">MusicFile</span> <span class="o">=</span> <span class="n">rinoget</span><span class="p">(</span><span class="s">'parse'</span><span class="p">,</span> <span class="s">'false'</span><span class="p">);</span></code></pre></figure>
+
+<p>performs the same function as:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">MusicFile</span> <span class="o">=</span> <span class="n">fopen</span><span class="p">(</span><span class="n">littletalks</span><span class="o">.</span><span class="n">mp3</span><span class="p">);</span></code></pre></figure>
+
+<p>if the file were saved locally.</p>
+
+<p>If you want to download a file that is not the most recent file, you can use its file ID, which you can find using the web interface.</p>
+
+<p>For example, to download the file with the ID ‘63543’, you would enter:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">File</span> <span class="o">=</span> <span class="n">rinoget</span><span class="p">(</span><span class="mi">63543</span><span class="p">,</span> <span class="s">'parse'</span><span class="p">,</span> <span class="s">'false'</span><span class="p">);</span></code></pre></figure>
+
+<h1 id="coming-soon">Coming soon…</h1>
+<p>We’re adding improvements the RinoCloud-MATLAB Interface to make RinoCloud an even more useful tool.
+Soon we will be adding the capability to download multiple files at once. We will also be adding an ‘append’ feature to allow you to add new data to a saved file. This will mean that you can use MATLAB and RinoCloud to remotely record data in real time.</p>
+
+<h2 id="other-future-features">Other future features</h2>
+<p>Our aim is to streamline science by helping scientists to save, organise and collect their data. Every lab is unique, so we have made the RinoCloud-MATLAB Interface entirely open source so that you can alter it to suit your needs.</p>
+
+<p>We are also continuously improving all of our interfaces, so if you think of a feature that would be useful for your research, let us know.</p>
+
+</article>
+
+
+<aside class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/blog/2016/01/18/why-i-started-rinocloud.html">
+            Why I left my PhD at Cambridge to start Rinocloud
+            <small><time datetime="2016-01-18T07:34:57+00:00">18 Jan 2016</time></small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/jekyll/update/2016/01/12/api-explorer.html">
+            API explorer
+            <small><time datetime="2016-01-12T17:34:57+00:00">12 Jan 2016</time></small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/jekyll/update/2016/01/12/rinocloud-labview-tutorial.html">
+            Rinocloud Labview tutorial
+            <small><time datetime="2016-01-12T17:34:57+00:00">12 Jan 2016</time></small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</aside>
+
+
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="2016-01-19T11:50:34+00:00">2016</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>

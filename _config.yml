@@ -1,20 +1,29 @@
-# Welcome to Jekyll!
+# Permalinks
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# permalink:           pretty
+# relative_permalinks: true
 
-# Site settings
-title: Rinocloud Tutorials
-email: eoin@rinocloud.com
-description: ""
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://rinocloud.com" # the base hostname & protocol for your site
-twitter_username: rinocloud
-github_username:  rinocloud
+# Setup
+title:               Rinocloud
+tagline:             tutorials
+url:                 "http://rinocloud.com"
+baseurl:             ""
 
-# Build settings
-markdown: kramdown
-baseurl: ""
-permalink: /:title
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Eoin Murray
+  url:               https://twitter.com/eo_in
+  email:             eoin@rinocloud.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/rinocloud
