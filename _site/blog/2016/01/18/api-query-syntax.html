@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      Rinocloud query language &middot; Rinocloud
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="https://s3-eu-west-1.amazonaws.com/rinocloud/static/Rreverse.png">
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Rinocloud" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">Rinocloud</a>
+          <small>blog</small>
+          <small><a style="float:right; margin-top:5px;" href="https://rinocloud.com">go to rinocloud.com</a></small>
+        </h3>
+
+      </header>
+
+      <main>
+        <article class="post">
+  <h1 class="post-title">Rinocloud query language</h1>
+  <time datetime="2016-01-18T07:34:57+00:00" class="post-date">18 Jan 2016</time>
+  <div class="post-date">by Eoin</div>
+  <p>The Rinocloud search functionality is based on the awesome <a href="http://elastic.co">elasticsearch</a>.</p>
+
+<p>Building queries from the following “mini-language” allows you to quickly find the data you want in Rinocloud.</p>
+
+<h4 id="you-can-search-by-field-and-value">You can search by field and value:</h4>
+
+<p><code class="highlighter-rouge">
+    field:value
+ </code></p>
+
+<h4 id="or">OR</h4>
+
+<p><code class="highlighter-rouge">
+  color:(red OR blue)
+ </code></p>
+
+<h4 id="exact">EXACT</h4>
+
+<p><code class="highlighter-rouge">
+  author:"John Smith"
+ </code></p>
+
+<p>will match where the author field contains the exact phrase “john smith”.</p>
+
+<h4 id="wildcards">Wildcards</h4>
+
+<p>Wildcard searches can be run on individual terms, using ? to replace a single character, and * to replace zero or more characters:</p>
+
+<p><code class="highlighter-rouge">
+qu?ck bro*
+</code></p>
+
+<h4 id="regular-expressions">Regular expressions</h4>
+
+<p>Regular expression patterns can be embedded in the query string by wrapping them in forward-slashes (“/”):</p>
+
+<p><code class="highlighter-rouge">
+name:/joh?n(ath[oa]n)/
+</code></p>
+
+<h4 id="fuzziness">Fuzziness</h4>
+
+<p>We can search for terms that are similar to, but not exactly like our search terms, using the “fuzzy” operator:</p>
+
+<p><code class="highlighter-rouge">
+quikc~ brwn~ foks~
+</code></p>
+
+<p>This uses the Damerau-Levenshtein distance to find all terms with a maximum of two changes, where a change is the insertion, deletion or substitution of a single character, or transposition of two adjacent characters.</p>
+
+<p>The default edit distance is 2, but an edit distance of 1 should be sufficient to catch 80% of all human misspellings. It can be specified as:</p>
+
+<p><code class="highlighter-rouge">
+quikc~1
+</code></p>
+
+<h4 id="proximity-searches">Proximity searches</h4>
+
+<p>While a phrase query (eg “john smith”) expects all of the terms in exactly the same order, a proximity query allows the specified words to be further apart or in a different order. In the same way that fuzzy queries can specify a maximum edit distance for characters in a word, a proximity search allows us to specify a maximum edit distance of words in a phrase:</p>
+
+<p><code class="highlighter-rouge">
+"fox quick"~5
+</code></p>
+
+<p>The closer the text in a field is to the original order specified in the query string, the more relevant that document is considered to be. When compared to the above example query, the phrase “quick fox” would be considered more relevant than “quick brown fox”.</p>
+
+<h4 id="ranges">Ranges</h4>
+
+<p>Ranges can be specified for date, numeric or string fields. Inclusive ranges are specified with square brackets [min TO max] and exclusive ranges with curly brackets {min TO max}.</p>
+
+<p>All days in 2012:</p>
+
+<p><code class="highlighter-rouge">
+date:[2012-01-01 TO 2012-12-31]
+</code></p>
+
+<p>Numbers 1..5</p>
+
+<p><code class="highlighter-rouge">
+count:[1 TO 5]
+</code></p>
+
+<p>Tags between alpha and omega, excluding alpha and omega:</p>
+
+<p><code class="highlighter-rouge">
+tag:{alpha TO omega}
+</code></p>
+
+<p>Numbers from 10 upwards</p>
+
+<p><code class="highlighter-rouge">
+count:[10 TO *]
+</code></p>
+
+<p>Dates before 2012</p>
+
+<p><code class="highlighter-rouge">
+date:{* TO 2012-01-01}
+</code></p>
+
+<p>Curly and square brackets can be combined:
+Numbers from 1 up to but not including 5</p>
+
+<p><code class="highlighter-rouge">
+count:[1 TO 5}
+</code></p>
+
+<p>Ranges with one side unbounded can use the following syntax:</p>
+
+<p><code class="highlighter-rouge">
+age:&gt;10
+age:&gt;=10
+age:&lt;10
+age:&lt;=10
+</code></p>
+
+<p>Note:
+To combine an upper and lower bound with the simplified syntax, you would need to join two clauses with an AND operator:</p>
+
+<p><code class="highlighter-rouge">
+age:(&gt;=10 AND &lt;20)
+age:(+&gt;=10 +&lt;20)
+</code></p>
+
+<p>The parsing of ranges in query strings can be complex and error prone. It is much more reliable to use an explicit range query.</p>
+
+<h4 id="boosting">Boosting</h4>
+
+<p>Use the boost operator ^ to make one term more relevant than another. For instance, if we want to find all documents about foxes, but we are especially interested in quick foxes:</p>
+
+<p><code class="highlighter-rouge">
+quick^2 fox
+</code></p>
+
+<p>The default boost value is 1, but can be any positive floating point number. Boosts between 0 and 1 reduce relevance.</p>
+
+<p>Boosts can also be applied to phrases or to groups:</p>
+
+<p><code class="highlighter-rouge">
+"john smith"^2   (foo bar)^4
+</code></p>
+
+<p>Boolean operators</p>
+
+<p>By default, all terms are optional, as long as one term matches. A search for foo bar baz will find any document that contains one or more of foo or bar or baz. We have already discussed the default_operator above which allows you to force all terms to be required, but there are also boolean operators which can be used in the query string itself to provide more control.</p>
+
+<p>The preferred operators are + (this term must be present) and - (this term must not be present). All other terms are optional. For example, this query:</p>
+
+<p><code class="highlighter-rouge">
+quick brown +fox -news
+</code></p>
+
+<p>states that:</p>
+
+<ul>
+  <li>fox must be present</li>
+  <li>news must not be present</li>
+  <li>quick and brown are optional — their presence increases the relevance</li>
+</ul>
+
+<p>The familiar operators AND, OR and NOT (also written &amp;&amp;, || and !) are also supported. However, the effects of these operators can be more complicated than is obvious at first glance. NOT takes precedence over AND, which takes precedence over OR. While the + and - only affect the term to the right of the operator, AND and OR can affect the terms to the left and right.</p>
+
+<h4 id="empty-queryedit">Empty Queryedit</h4>
+
+<p>If the query string is empty or only contains whitespaces the query will yield an empty result set.</p>
+
+</article>
+
+
+<aside class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/blog/2016/01/18/why-i-started-rinocloud.html">
+            Why I left my PhD at Cambridge to start Rinocloud
+            <small><time datetime="2016-01-18T07:34:57+00:00">18 Jan 2016</time></small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/jekyll/update/2016/01/12/api-explorer.html">
+            API explorer
+            <small><time datetime="2016-01-12T17:34:57+00:00">12 Jan 2016</time></small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/jekyll/update/2016/01/12/rinocloud-labview-tutorial.html">
+            Rinocloud Labview tutorial
+            <small><time datetime="2016-01-12T17:34:57+00:00">12 Jan 2016</time></small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</aside>
+
+
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="2016-01-19T18:44:52+00:00">2016</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>
