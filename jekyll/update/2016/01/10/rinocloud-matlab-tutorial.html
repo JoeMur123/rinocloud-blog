@@ -52,17 +52,13 @@
 
 <p>Or you can git clone the repository.</p>
 
-<p><code class="highlighter-rouge">
-git clone https://github.com/rinocloud/rinocloud-matlab
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">://</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="p">/</span><span class="n">rinocloud</span><span class="p">/</span><span class="n">rinocloud</span><span class="o">-</span><span class="n">matlab</span></code></pre></figure>
 
 <h2 id="getting-started">Getting started</h2>
 
 <p>To get your API token; sign into your Rinocloud project and go to</p>
 
-<p><code class="highlighter-rouge">
-https://&lt;yourproject&gt;.rinocloud.com/integrations/
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">https</span><span class="p">://</span><span class="o">&lt;</span><span class="n">yourproject</span><span class="o">&gt;.</span><span class="n">rinocloud</span><span class="o">.</span><span class="n">com</span><span class="p">/</span><span class="n">integrations</span><span class="p">/</span></code></pre></figure>
 
 <p>Download the Rinocloud-MATLAB integration folder and add the folder and subfolders to your MATLAB path.</p>
 
@@ -90,73 +86,62 @@ https://&lt;yourproject&gt;.rinocloud.com/integrations/
 
 <p>To upload a file to Rinocloud from MATLAB, first make sure that the file is in your current folder. To upload the file “logo.png” to Rinocloud, in the command window enter:</p>
 
-<p><code class="highlighter-rouge">
-response_metadata = rino.upload('logo.png');
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">response_metadata</span> <span class="o">=</span> <span class="n">rino</span><span class="o">.</span><span class="n">upload</span><span class="p">(</span><span class="s1">'logo.png'</span><span class="p">);</span></code></pre></figure>
 
 <h3 id="upload-a-file-with-metadata-and-tags">Upload a file with metadata and tags</h3>
 
-<p>```
-metadata = struct(
-            ‘param1’, ‘value1’
-            ‘param2’, ‘value2’
-          )</p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">metadata</span> <span class="o">=</span> <span class="nb">struct</span><span class="p">(</span>
+            <span class="s1">'param1'</span><span class="p">,</span> <span class="s1">'value1'</span>
+            <span class="s1">'param2'</span><span class="p">,</span> <span class="s1">'value2'</span>
+          <span class="p">)</span>
 
-<p>tags = {‘apples’,’oranges’}</p>
 
-<p>response_metadata = rino.upload(‘logo.png’, ‘metadata’, metadata, ‘tags’, tags);
-```</p>
+<span class="n">tags</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'apples'</span><span class="p">,</span><span class="s1">'oranges'</span><span class="p">}</span>
+
+<span class="n">response_metadata</span> <span class="o">=</span> <span class="n">rino</span><span class="o">.</span><span class="n">upload</span><span class="p">(</span><span class="s1">'logo.png'</span><span class="p">,</span> <span class="s1">'metadata'</span><span class="p">,</span> <span class="n">metadata</span><span class="p">,</span> <span class="s1">'tags'</span><span class="p">,</span> <span class="n">tags</span><span class="p">);</span></code></pre></figure>
 
 <h3 id="upload-to-a-specific-folder">Upload to a specific folder</h3>
 
-<p>Just get the id of the folder next to the folder name on the rinocloud website, its displayed as #<id></id></p>
+<p>Just get the id of the folder next to the folder name on the rinocloud website, its displayed as <code class="highlighter-rouge">#&lt;id&gt;</code></p>
 
-<p><code class="highlighter-rouge">
-response_metadata = rino.upload('logo.png', 'parent', &lt;parent_id&gt;);
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">response_metadata</span> <span class="o">=</span> <span class="n">rino</span><span class="o">.</span><span class="n">upload</span><span class="p">(</span><span class="s1">'logo.png'</span><span class="p">,</span> <span class="s1">'parent'</span><span class="p">,</span> <span class="o">&lt;</span><span class="n">parent_id</span><span class="o">&gt;</span><span class="p">);</span></code></pre></figure>
 
 <h3 id="response-metadata">Response metadata</h3>
 
 <p>The response metadata will typically look like this:</p>
 
-<p><code class="highlighter-rouge">
-response_metadata =
-              id: 848
-            name: 'logo.png'
-            size: 11433
-            type: 'file'
-         project: 1
-    project_name: 'test'
-           owner: 'test_user'
-      created_on: '2016-01-25T11:33:44.098427Z'
-      updated_on: '2016-01-25T11:33:44.098457Z'
-          shared: 0
-          parent: 1
-            tags: {'apples'  'oranges'}
-          param1: 'value1'
-          param2: 'value2'
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">response_metadata</span> <span class="o">=</span>
+              <span class="n">id</span><span class="p">:</span> <span class="mi">848</span>
+            <span class="n">name</span><span class="p">:</span> <span class="s1">'logo.png'</span>
+            <span class="nb">size</span><span class="p">:</span> <span class="mi">11433</span>
+            <span class="nb">type</span><span class="p">:</span> <span class="s1">'file'</span>
+         <span class="n">project</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="n">project_name</span><span class="p">:</span> <span class="s1">'test'</span>
+           <span class="n">owner</span><span class="p">:</span> <span class="s1">'test_user'</span>
+      <span class="n">created_on</span><span class="p">:</span> <span class="s1">'2016-01-25T11:33:44.098427Z'</span>
+      <span class="n">updated_on</span><span class="p">:</span> <span class="s1">'2016-01-25T11:33:44.098457Z'</span>
+          <span class="n">shared</span><span class="p">:</span> <span class="mi">0</span>
+          <span class="n">parent</span><span class="p">:</span> <span class="mi">1</span>
+            <span class="n">tags</span><span class="p">:</span> <span class="p">{</span><span class="s1">'apples'</span>  <span class="s1">'oranges'</span><span class="p">}</span>
+          <span class="n">param1</span><span class="p">:</span> <span class="s1">'value1'</span>
+          <span class="n">param2</span><span class="p">:</span> <span class="s1">'value2'</span></code></pre></figure>
 
 <h3 id="getting-the-id-of-the-uploaded-file">Getting the id of the uploaded file</h3>
 
 <p>You can get the ID of the uploaded file by typing</p>
 
-<p><code class="highlighter-rouge">
-response_metadata.id
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">response_metadata</span><span class="o">.</span><span class="n">id</span></code></pre></figure>
 
 <h3 id="full-upload-example">Full upload example</h3>
 
 <p>Here is an example that uses all of the optional arguments. Here we want to upload a file called “logo.png”, but we want to rename it to “RinoLogo.png”. We also want to tag it with the tags “image” and “logo”, and to give it the key value pairs “size : small” and “colour : purple”. Finally, we also want to save it within a folder we have created which has the object ID 865. In order to do this, we enter the following:</p>
 
-<p>```
-NAME = ‘RinoLogo.png’;
-SEARCH_TAGS = {‘image’, ‘logo’};
-FILE_METADATA = struct(‘size’, ‘small’, ‘colour’, ‘purple’);
-FOLDER_ID = 865;</p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">NAME</span> <span class="o">=</span> <span class="s1">'RinoLogo.png'</span><span class="p">;</span>
+<span class="n">SEARCH_TAGS</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'image'</span><span class="p">,</span> <span class="s1">'logo'</span><span class="p">};</span>
+<span class="n">FILE_METADATA</span> <span class="o">=</span> <span class="nb">struct</span><span class="p">(</span><span class="s1">'size'</span><span class="p">,</span> <span class="s1">'small'</span><span class="p">,</span> <span class="s1">'colour'</span><span class="p">,</span> <span class="s1">'purple'</span><span class="p">);</span>
+<span class="n">FOLDER_ID</span> <span class="o">=</span> <span class="mi">865</span><span class="p">;</span>
 
-<p>rino.upload(logo.png, ‘newname’, ‘RinoLogo.png’, ‘tags’, SEARCH_TAGS, ‘metadata’, FILE_METADATA, ‘parent’, FOLDER_ID);
-```</p>
+<span class="n">rino</span><span class="o">.</span><span class="n">upload</span><span class="p">(</span><span class="n">logo</span><span class="o">.</span><span class="n">png</span><span class="p">,</span> <span class="s1">'newname'</span><span class="p">,</span> <span class="s1">'RinoLogo.png'</span><span class="p">,</span> <span class="s1">'tags'</span><span class="p">,</span> <span class="n">SEARCH_TAGS</span><span class="p">,</span> <span class="s1">'metadata'</span><span class="p">,</span> <span class="n">FILE_METADATA</span><span class="p">,</span> <span class="s1">'parent'</span><span class="p">,</span> <span class="n">FOLDER_ID</span><span class="p">);</span></code></pre></figure>
 
 <h2 id="downloading-files">Downloading files</h2>
 
@@ -164,9 +149,7 @@ FOLDER_ID = 865;</p>
 
 <p>You can specify which file you want to download by giving its object ID. This can be found using the Rinocloud web interface. To download an object with the ID 667, you would enter:</p>
 
-<p><code class="highlighter-rouge">
-rino.download(667);
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="mi">667</span><span class="p">);</span></code></pre></figure>
 
 <p>It will be named with the filename on Rinocloud</p>
 
@@ -174,39 +157,29 @@ rino.download(667);
 
 <p>If we want to download a csv file with object ID 7664, and to rename it “spectrum.txt”, we would type:</p>
 
-<p><code class="highlighter-rouge">
-rino.download(7664, 'newname', 'spectrum.txt');
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="mi">7664</span><span class="p">,</span> <span class="s1">'newname'</span><span class="p">,</span> <span class="s1">'spectrum.txt'</span><span class="p">);</span></code></pre></figure>
 
 <h3 id="download-into-a-variable">Download into a variable</h3>
 
 <p>If we simply wanted to read the text straight into a MATLAB variable, “DATA”, as a string, we would type:</p>
 
-<p><code class="highlighter-rouge">
-DATA = rino.download(7664, 'tofile', false, 'totext', true);
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">DATA</span> <span class="o">=</span> <span class="n">rino</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="mi">7664</span><span class="p">,</span> <span class="s1">'tofile'</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="s1">'totext'</span><span class="p">,</span> <span class="nb">true</span><span class="p">);</span></code></pre></figure>
 
 <h3 id="download-most-recent">Download most recent</h3>
 
 <p>The download the most recently uploaded file to your current folder, you can enter:</p>
 
-<p><code class="highlighter-rouge">
-rino.download_last();
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="n">download_last</span><span class="p">();</span></code></pre></figure>
 
 <p>or</p>
 
-<p><code class="highlighter-rouge">
-rino.download_last(4); % will download last 4 files
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="n">download_last</span><span class="p">(</span><span class="mi">4</span><span class="p">);</span> <span class="c1">% will download last 4 files</span></code></pre></figure>
 
 <p>The function also takes the “tofile” and “totext” arguments in the same way as the rino.download() function. For multiple files, the output will be given as a cell array if the “tofile” argument is set to false.</p>
 
 <h2 id="creating-folders">Creating folders</h2>
 
-<p><code class="highlighter-rouge">
-rino.create_folder('rino_uploads');
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="n">create_folder</span><span class="p">(</span><span class="s1">'rino_uploads'</span><span class="p">);</span></code></pre></figure>
 
 <p>The create_folder() function take only a single argument, the folder name as a string. The function returns the folder metadata, including its object ID so that the ID can be used when uploading to the folder.</p>
 
@@ -216,42 +189,32 @@ rino.create_folder('rino_uploads');
 
 <h3 id="updating-tags">Updating tags</h3>
 
-<p><code class="highlighter-rouge">
-rino.update_tags()
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="n">update_tags</span><span class="p">();</span></code></pre></figure>
 
 <p>This function removes the old tags associated with an object and replaces them with new ones. The function requires the object ID of the object with tags to be replaced and the new tags as cell array of strings. For example, to replace the tags of the object with the ID 8898 with the tags “fast” and “new”, we would type:</p>
 
-<p><code class="highlighter-rouge">
-rino.update_tags(8898,{'fast', 'new'});
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="n">update_tags</span><span class="p">(</span><span class="mi">8898</span><span class="p">,{</span><span class="s1">'fast'</span><span class="p">,</span> <span class="s1">'new'</span><span class="p">});</span></code></pre></figure>
 
 <h3 id="updating-metadata">Updating metadata</h3>
 
 <p>This updates the metadata associated with a file. The function requires the object ID of the file and the new metadata as a MATLAB structure array. For example, if we wanted to associate the metadata “laser_power : 6 nW” with the file with the ID 8898, we would enter:</p>
 
-<p><code class="highlighter-rouge">
-rino.update_metadata(8898, struct('laser_power', '6 nW'));
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="n">update_metadata</span><span class="p">(</span><span class="mi">8898</span><span class="p">,</span> <span class="nb">struct</span><span class="p">(</span><span class="s1">'laser_power'</span><span class="p">,</span> <span class="s1">'6 nW'</span><span class="p">));</span></code></pre></figure>
 
 <h2 id="deleting">Deleting</h2>
 
 <p>This function deletes a saved file. The delete function takes only the object ID of the file you want to delete. So delete the file with the object ID 8898, we type:</p>
 
-<p><code class="highlighter-rouge">
-rino.delete(8898);
-</code></p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="nb">delete</span><span class="p">(</span><span class="mi">8898</span><span class="p">);</span></code></pre></figure>
 
 <h1 id="api-documentation">API Documentation</h1>
 
 <h2 id="rinoupload">rino.upload()</h2>
 
-<p>```
-rino.upload(filename)</p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="n">upload</span><span class="p">(</span><span class="n">filename</span><span class="p">);</span>
 
-<p>% with all optional arguments
-rino.upload(filename, ‘newname’, newname, ‘metadata’, metadata, ‘tags’, tags, ‘parent’, parent)
-```</p>
+<span class="c1">% with all optional arguments</span>
+<span class="n">rino</span><span class="o">.</span><span class="n">upload</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">'newname'</span><span class="p">,</span> <span class="n">newname</span><span class="p">,</span> <span class="s1">'metadata'</span><span class="p">,</span> <span class="n">metadata</span><span class="p">,</span> <span class="s1">'tags'</span><span class="p">,</span> <span class="n">tags</span><span class="p">,</span> <span class="s1">'parent'</span><span class="p">,</span> <span class="n">parent</span><span class="p">);</span></code></pre></figure>
 
 <p>The upload function only requires the file name (or file path) as a string as an input. It also takes the following optional arguments:</p>
 
@@ -265,12 +228,10 @@ rino.upload(filename, ‘newname’, newname, ‘metadata’, metadata, ‘tags�
 
 <h2 id="rinodownload">rino.download()</h2>
 
-<p>```
-rino.download(file_id)</p>
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">rino</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">file_id</span><span class="p">);</span>
 
-<p>% with all optional arguments
-rino.download(file_id, ‘tofile’, 1, ‘totext’, 0)
-```</p>
+<span class="c1">% with all optional arguments</span>
+<span class="n">rino</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">file_id</span><span class="p">,</span> <span class="s1">'tofile'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">'totext'</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span></code></pre></figure>
 
 <p>The download function only requires the object ID of file you want to download. The funtion will save the file in your current folder. The download function also takes the following optional arguments:</p>
 
@@ -322,7 +283,7 @@ rino.download(file_id, ‘tofile’, 1, ‘totext’, 0)
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2016-01-25T12:12:26+00:00">2016</time>. All rights reserved.
+          &copy; <time datetime="2016-01-25T12:17:30+00:00">2016</time>. All rights reserved.
         </small>
       </footer>
     </div>
