@@ -4,7 +4,7 @@
  <title>Rinocloud</title>
  <link href="http://rinocloud.com/atom.xml" rel="self"/>
  <link href="http://rinocloud.com/"/>
- <updated>2016-01-25T12:12:18+00:00</updated>
+ <updated>2016-01-25T12:12:26+00:00</updated>
  <id>http://rinocloud.com</id>
  <author>
    <name>Eoin Murray</name>
@@ -283,9 +283,7 @@ into different programs.&lt;/p&gt;
    <link href="http://rinocloud.com/jekyll/update/2016/01/10/rinocloud-matlab-tutorial.html"/>
    <updated>2016-01-10T17:34:57+00:00</updated>
    <id>http://rinocloud.com/jekyll/update/2016/01/10/rinocloud-matlab-tutorial</id>
-   <content type="html">&lt;h1 id=&quot;the-rinocloud-matlab-integration&quot;&gt;The Rinocloud-MATLAB Integration&lt;/h1&gt;
-
-&lt;p&gt;You can save and load data files from Rinocloud from within MATLAB using the Rinocloud-MATLAB interface.&lt;/p&gt;
+   <content type="html">&lt;p&gt;You can save and load data files from Rinocloud from within MATLAB using the Rinocloud-MATLAB interface.&lt;/p&gt;
 
 &lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
 
