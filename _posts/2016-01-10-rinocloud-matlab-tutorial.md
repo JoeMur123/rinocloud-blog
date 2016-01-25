@@ -7,8 +7,6 @@ categories: jekyll update
 ---
 
 
-# The Rinocloud-MATLAB Integration
-
 You can save and load data files from Rinocloud from within MATLAB using the Rinocloud-MATLAB interface.
 
 ## Installation
