@@ -5,9 +5,134 @@
     <description></description>
     <link>http://rinocloud.com/</link>
     <atom:link href="http://rinocloud.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Jan 2016 12:17:30 +0000</pubDate>
-    <lastBuildDate>Mon, 25 Jan 2016 12:17:30 +0000</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2016 19:32:36 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2016 19:32:36 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>What our market is telling us </title>
+        <description>&lt;p&gt;We looked at the research on the explosion of data and the challenges it was
+causing. Then we went straight to researchers at the coal face and looked for
+their opinions and feedback.   Through friends, colleagues, family we managed to
+put together a pretty comprehensive email list of researchers/PhD student in
+over 10 different colleges/research institutes around the world. The list had
+physicists, biologists, chemists, water specialists, people working on gene
+therapy…&lt;/p&gt;
+
+&lt;p&gt;We wrote an individual email to each telling them what we were up to and asking
+them for help. First we asked them to fill in a simple 2 minute survey and
+secondly if they were at all interested, would they mind giving up some of their
+valuable time to test software for us.&lt;/p&gt;
+
+&lt;p&gt;80% people replied, including nearly 300 offering to test the software for us
+because they said there was such a need. (Three people from this group ended up
+working for us). Let’s share the results of the survey:&lt;/p&gt;
+
+&lt;p&gt;We asked how people currently managed their data storage. 80% used a combination
+of Dropbox, Google Drive and One Drive combined with local storage and USB
+sticks.&lt;/p&gt;
+
+&lt;p&gt;We asked how people shared data with other team members. 82% said through
+personal Dropbox files, through email and by sharing USB sticks.&lt;/p&gt;
+
+&lt;p&gt;We asked some questions about what lab automation software and what data
+analytics software they were using AND how they configured this software to
+manage data from their experiments. Over 90% of those surveyed used Labview,
+Matlab, Pytnon, R, Origin, Excel. Of those 95% would have used drivers or
+‘hacked’ the software in those applications to configure. Nearly all still had
+to do some cutting and pasting or dragging and dropping to move data back and
+forth from the storage system. Approx. 3% had coding skills and would have used
+programming languages such as Python to try and seamlessly link between their
+lab software and storage.&lt;/p&gt;
+
+&lt;p&gt;There’s a saying: you hear what you want to hear. We were hearing what we wanted
+to hear from the survey because it all resonated with our own experiences and
+provided justification for what we set out to build. So to get more of a reality
+check we also interviewed 50 of the group surveyed. These interviews ranged from
+10 minutes to 2 hours (as mentioned, three people started to work for us after
+this because they were so passionate about what we were trying to do.) The
+interviews convinced us that we were dealing with a real problem in the
+scientific research community. The way data was being handled was not up to
+scratch. Millions was being spent on the best lab equipment, the best lab
+automation software to carry out the best experiments possible. But data
+management was not keeping up. There is a smorgasbord of different ad hoc
+approaches for storing, managing, sharing, searching scientific data. The
+problem is hassle, time lost, inefficient use of resources. As more and more
+data is produced the problems are getting worse. Well that’s what we’re telling
+ourselves anyway and it’s what our friends and colleagues are experiencing…. And
+our beta users are saying that Rinocloud is a gift that keeps on giving. Time
+will tell!&lt;/p&gt;
+
+&lt;p&gt;Be one of the first to try Rinocloud beta - &lt;a href=&quot;https://rinocloud.com&quot;&gt;Sign up here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Jan 2016 17:34:57 +0000</pubDate>
+        <link>http://rinocloud.com/jekyll/update/2016/01/26/what-our-market-is-telling-us.html</link>
+        <guid isPermaLink="true">http://rinocloud.com/jekyll/update/2016/01/26/what-our-market-is-telling-us.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>The start of RinoCloud </title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/rinocloud/static/rinocloudMain.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Rinocloud is a team of physicists, biologists, chemists, electronic engineers
+and programmers from University of Cambridge, University of Oxford and the
+Tyndall National Research Institute. We have access to some of the best labs in
+the world with some of the most sophisticated instrumentation and lab automation
+software available. Yet we find ourselves constantly wasting valuable time -time
+that should have been spent on core research - trying to figure out the optimum
+way to manage our data.&lt;/p&gt;
+
+&lt;p&gt;Instrument software has to be configured to generate the data. This has to be
+interfaced to lab automation software for data analysis. The data in turn has to
+be configured and formatted for saving in folders in local workstations and
+servers - and then copied to generic cloud storage, mainly Dropbox and Google
+Drive. Add to this the time needed to pull all the data back from the cloud,
+organise it with locally stored data and then format it again so that it could
+be analysed by local applications. It’s not efficient! So we built Rinocloud.&lt;/p&gt;
+
+&lt;h2 id=&quot;rinocloud&quot;&gt;Rinocloud.&lt;/h2&gt;
+
+&lt;p&gt;A seamless storage hub for scientific data. Cloud based that can be searched,
+shared and secured the way scientists need it Integrates with incumbents -
+instrument control, lab automation and data analysis software. Built on the user
+familiarity of generic solutions such as Dropbox and Google Drive. Notebook,
+presentation, collaboration features intrinsic Downloadable and set up in
+minutes.&lt;/p&gt;
+
+&lt;p&gt;Well, we specced and built the software based on a minimalist view of what was
+the Most Viable Product. We asked 656 colleagues and friends to comment and give
+feedback. One hundred volunteered to beta test for us. We now have the software
+running in Cambridge, Tyndall, MIT, Oxford and in universities in Spain and
+Japan. Not only it is working - it’s exceeding expectations and scientists are
+clamoring to get access . It’s solving a problem that our users struggle with
+every day: It’s dealing with inherent inefficiencies that cost projects, funders
+and labs money: through inefficient use of researchers time; through less than
+optimal collaboration; through data getting lost or deleted, through not meeting
+audit and regulator standards; It’s helping, sweat lab assets by getting the
+most out of investment in personnel and equipment – by efficiently organizing
+their outputs – data; It’s meeting funders needs for audit ability; It’s meeting
+regulators needs for open access standards. Over the coming weeks we will be
+significantly increasing the numbers of beta users. We’re trying to get a cross
+section of different scientific disciplines and we’re looking for
+experimentalists and theorists. If you to try the software just enter your email
+details and as soon as a slot opens up we’ll email you with instructions.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Jan 2016 17:34:57 +0000</pubDate>
+        <link>http://rinocloud.com/jekyll/update/2016/01/25/the-start-of-rinocloud.html</link>
+        <guid isPermaLink="true">http://rinocloud.com/jekyll/update/2016/01/25/the-start-of-rinocloud.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Why I left my PhD at Cambridge to start Rinocloud</title>
