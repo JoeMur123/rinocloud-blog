@@ -4,7 +4,7 @@
  <title>Rinocloud</title>
  <link href="http://rinocloud.com/atom.xml" rel="self"/>
  <link href="http://rinocloud.com/"/>
- <updated>2016-01-26T19:32:36+00:00</updated>
+ <updated>2016-01-26T21:10:22+00:00</updated>
  <id>http://rinocloud.com</id>
  <author>
    <name>Eoin Murray</name>
@@ -17,7 +17,9 @@
    <link href="http://rinocloud.com/jekyll/update/2016/01/26/what-our-market-is-telling-us.html"/>
    <updated>2016-01-26T17:34:57+00:00</updated>
    <id>http://rinocloud.com/jekyll/update/2016/01/26/what-our-market-is-telling-us</id>
-   <content type="html">&lt;p&gt;We looked at the research on the explosion of data and the challenges it was
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/9p1s3tx.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We looked at the research on the explosion of data and the challenges it was
 causing. Then we went straight to researchers at the coal face and looked for
 their opinions and feedback.   Through friends, colleagues, family we managed to
 put together a pretty comprehensive email list of researchers/PhD student in

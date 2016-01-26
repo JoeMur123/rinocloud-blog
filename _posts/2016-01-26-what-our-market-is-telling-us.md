@@ -7,6 +7,8 @@ categories: jekyll update
 ---
 
 
+![](http://i.imgur.com/9p1s3tx.png)
+
 We looked at the research on the explosion of data and the challenges it was
 causing. Then we went straight to researchers at the coal face and looked for
 their opinions and feedback.   Through friends, colleagues, family we managed to
