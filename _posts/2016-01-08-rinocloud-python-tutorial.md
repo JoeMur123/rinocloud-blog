@@ -19,7 +19,7 @@ To get access we need to add an authentication header to each request. Go to the
 
 ### Accessing rinocloud
 
-Get your API access token at [https://rinocloud.com/integrations](https://rinocloud.com/integrations) if your logged in to rinocloud.
+Get your API access token at [https://rinocloud.com/integrations](https://rinocloud.com/integrations) if you are signed into rinocloud.
 
 {% highlight python %}
     # get your token at https://rinocloud.com/integrations
@@ -71,7 +71,7 @@ Let's now update some of the metadata of this new file we just uploaded:
 {% highlight python %}
 payload = {
   'id': file_id,
-  'field1': 'Some descrition text',
+  'field1': 'Some description text',
   'field2': [100.5, 'RinoCloud', true]
 }
 
