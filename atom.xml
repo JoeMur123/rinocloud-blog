@@ -4,7 +4,7 @@
  <title>Rinocloud</title>
  <link href="http://rinocloud.com/atom.xml" rel="self"/>
  <link href="http://rinocloud.com/"/>
- <updated>2016-01-26T21:10:22+00:00</updated>
+ <updated>2016-01-27T15:30:14+00:00</updated>
  <id>http://rinocloud.com</id>
  <author>
    <name>Eoin Murray</name>
@@ -617,7 +617,7 @@ into different programs.&lt;/p&gt;
 
 &lt;h3 id=&quot;accessing-rinocloud&quot;&gt;Accessing rinocloud&lt;/h3&gt;
 
-&lt;p&gt;Get your API access token at &lt;a href=&quot;https://rinocloud.com/integrations&quot;&gt;https://rinocloud.com/integrations&lt;/a&gt; if your logged in to rinocloud.&lt;/p&gt;
+&lt;p&gt;Get your API access token at &lt;a href=&quot;https://rinocloud.com/integrations&quot;&gt;https://rinocloud.com/integrations&lt;/a&gt; if you are signed into rinocloud.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;c&quot;&gt;# get your token at https://rinocloud.com/integrations&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&amp;lt;your token&amp;gt;&#39;&lt;/span&gt;
@@ -662,7 +662,7 @@ into different programs.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;s&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;&#39;field1&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Some descrition text&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&#39;field1&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Some description text&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;s&quot;&gt;&#39;field2&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;100.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;RinoCloud&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 

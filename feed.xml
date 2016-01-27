@@ -5,8 +5,8 @@
     <description></description>
     <link>http://rinocloud.com/</link>
     <atom:link href="http://rinocloud.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Jan 2016 21:10:22 +0000</pubDate>
-    <lastBuildDate>Tue, 26 Jan 2016 21:10:22 +0000</lastBuildDate>
+    <pubDate>Wed, 27 Jan 2016 15:30:14 +0000</pubDate>
+    <lastBuildDate>Wed, 27 Jan 2016 15:30:14 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -651,7 +651,7 @@ into different programs.&lt;/p&gt;
 
 &lt;h3 id=&quot;accessing-rinocloud&quot;&gt;Accessing rinocloud&lt;/h3&gt;
 
-&lt;p&gt;Get your API access token at &lt;a href=&quot;https://rinocloud.com/integrations&quot;&gt;https://rinocloud.com/integrations&lt;/a&gt; if your logged in to rinocloud.&lt;/p&gt;
+&lt;p&gt;Get your API access token at &lt;a href=&quot;https://rinocloud.com/integrations&quot;&gt;https://rinocloud.com/integrations&lt;/a&gt; if you are signed into rinocloud.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;c&quot;&gt;# get your token at https://rinocloud.com/integrations&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&amp;lt;your token&amp;gt;&#39;&lt;/span&gt;
@@ -696,7 +696,7 @@ into different programs.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;s&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;&#39;field1&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Some descrition text&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&#39;field1&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Some description text&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;s&quot;&gt;&#39;field2&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;100.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;RinoCloud&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
