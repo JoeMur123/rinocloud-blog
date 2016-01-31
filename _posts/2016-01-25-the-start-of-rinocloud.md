@@ -2,7 +2,7 @@
 layout: post
 title:  "The start of RinoCloud "
 date:   2016-01-25 17:34:57 +0000
-author: Fionan
+author: Fin
 categories: jekyll update
 ---
 
@@ -34,8 +34,8 @@ presentation, collaboration features intrinsic Downloadable and set up in
 minutes.
 
 Well, we specced and built the software based on a minimalist view of what was
-the Most Viable Product. We asked 656 colleagues and friends to comment and give
-feedback. One hundred volunteered to beta test for us. We now have the software
+the Most Viable Product. We asked colleagues and friends to comment and give
+feedback. Three hundred volunteered to beta test for us. We now have the software
 running in Cambridge, Tyndall, MIT, Oxford and in universities in Spain and
 Japan. Not only it is working - it’s exceeding expectations and scientists are
 clamoring to get access . It’s solving a problem that our users struggle with
