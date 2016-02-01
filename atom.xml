@@ -4,7 +4,7 @@
  <title>Rinocloud</title>
  <link href="http://rinocloud.com/atom.xml" rel="self"/>
  <link href="http://rinocloud.com/"/>
- <updated>2016-01-31T19:09:25+00:00</updated>
+ <updated>2016-02-01T17:05:35+00:00</updated>
  <id>http://rinocloud.com</id>
  <author>
    <name>Eoin Murray</name>
@@ -56,50 +56,36 @@
    <link href="http://rinocloud.com/jekyll/update/2016/01/25/the-start-of-rinocloud.html"/>
    <updated>2016-01-25T17:34:57+00:00</updated>
    <id>http://rinocloud.com/jekyll/update/2016/01/25/the-start-of-rinocloud</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/rinocloud/static/rinocloudMain.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;h1 id=&quot;what-happens-when-scientists-get-together&quot;&gt;What happens when scientists get together?&lt;/h1&gt;
 
-&lt;p&gt;Rinocloud is a team of physicists, biologists, chemists, electronic engineers
-and programmers from University of Cambridge, University of Oxford and the
-Tyndall National Research Institute. We have access to some of the best labs in
-the world with some of the most sophisticated instrumentation and lab automation
-software available. Yet we find ourselves constantly wasting valuable time -time
-that should have been spent on core research - trying to figure out the optimum
-way to manage our data.&lt;/p&gt;
+&lt;p&gt;Rinocloud is a team of physicists, biologists, chemists, environmental scientists, electronic engineers and programmers from the University of Cambridge, the University of Oxford, University of Granada and the Tyndall National Research Institute. Team members have access to some of the best labs in the world with some of the most sophisticated instrumentation and lab automation software available. Yet we still found ourselves wasting valuable time trying to figure out optimum ways to manage data being generated from our experiments and simulations.&lt;/p&gt;
 
-&lt;p&gt;Instrument software has to be configured to generate the data. This has to be
-interfaced to lab automation software for data analysis. The data in turn has to
-be configured and formatted for saving in folders in local workstations and
-servers - and then copied to generic cloud storage, mainly Dropbox and Google
-Drive. Add to this the time needed to pull all the data back from the cloud,
-organise it with locally stored data and then format it again so that it could
-be analysed by local applications. It’s not efficient! So we built Rinocloud.&lt;/p&gt;
+&lt;p&gt;Take experiments, for example. Instrument software has to be configured to generate the data. This has to be interfaced to lab automation software for data analysis. The data in turn has to be configured and formatted for saving in folders in local workstations and servers - and then copied to generic cloud storage, mainly Dropbox and Google Drive. Add to this the time needed to pull all the data back from the cloud, organise it with locally stored data and then format it again so that it can be analysed by local applications. It’s not efficient!&lt;/p&gt;
 
-&lt;h2 id=&quot;rinocloud&quot;&gt;Rinocloud.&lt;/h2&gt;
+&lt;h1 id=&quot;rinocloud-scientists-data-hub&quot;&gt;Rinocloud: scientists data hub&lt;/h1&gt;
 
-&lt;p&gt;A seamless storage hub for scientific data. Cloud based that can be searched,
-shared and secured the way scientists need it Integrates with incumbents -
-instrument control, lab automation and data analysis software. Built on the user
-familiarity of generic solutions such as Dropbox and Google Drive. Notebook,
-presentation, collaboration features intrinsic Downloadable and set up in
-minutes.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Well, we specced and built the software based on a minimalist view of what was
-the Most Viable Product. We asked colleagues and friends to comment and give
-feedback. Three hundred volunteered to beta test for us. We now have the software
-running in Cambridge, Tyndall, MIT, Oxford and in universities in Spain and
-Japan. Not only it is working - it’s exceeding expectations and scientists are
-clamoring to get access . It’s solving a problem that our users struggle with
-every day: It’s dealing with inherent inefficiencies that cost projects, funders
-and labs money: through inefficient use of researchers time; through less than
-optimal collaboration; through data getting lost or deleted, through not meeting
-audit and regulator standards; It’s helping, sweat lab assets by getting the
-most out of investment in personnel and equipment – by efficiently organizing
-their outputs – data; It’s meeting funders needs for audit ability; It’s meeting
-regulators needs for open access standards. Over the coming weeks we will be
-significantly increasing the numbers of beta users. We’re trying to get a cross
-section of different scientific disciplines and we’re looking for
-experimentalists and theorists. If you to try the software just enter your email
-details and as soon as a slot opens up we’ll email you with instructions.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/rinocloud/static/diagram.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A seamless storage hub for scientific data.&lt;/li&gt;
+  &lt;li&gt;Cloud based that can be searched, shared and secured the way scientists need it.&lt;/li&gt;
+  &lt;li&gt;Integrates with incumbent systems; lab automation and data analysis software.&lt;/li&gt;
+  &lt;li&gt;Built on the user familiarity of generic solutions such as Dropbox and Google Drive.&lt;/li&gt;
+  &lt;li&gt;Notebook, plotting, collaboration features intrinsic.&lt;/li&gt;
+  &lt;li&gt;Set up in minutes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Well, we specced and built the software based on a minimalist view of what was the Most Viable Product. We asked colleagues and friends to comment and give feedback. Three hundred volunteered to beta test for us. We now have the software running in Cambridge, Tyndall, MIT, Oxford and in universities in Spain and Japan. Not only is it working - it’s exceeding expectations and scientists are clamouring to get access. It’s solving  problems that our users struggle with every day. It’s dealing with inherent inefficiencies that cost projects, funders and labs money; through inefficient use of researchers time; through less than optimal collaboration; through data getting lost or deleted; through not meeting audit and regulator standards.&lt;/p&gt;
+
+&lt;p&gt;It’s helping sweat lab assets by getting the most out of investment in personnel and equipment – by efficiently organizing their outputs – data. It’s meeting funders needs for audit ability. It’s meeting regulators needs for open access standards.&lt;/p&gt;
+
+&lt;p&gt;Over the coming weeks we will be significantly increasing the numbers of beta users. We’re trying to get a cross section of different scientific disciplines and we’re looking for experimentalists and theorists. If you want to try the software just enter your email details and as soon as a slot opens up we’ll email you with instructions.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Helena is an Environmental scientist and graduate of the University of Granada and ex Institute of Water. She is one of the founders of Rinocloud. She’s managed large multidisciplinary projects, lots of PhDs and postdoc teams and learned to deal with the lots of different ways they manage their data.&lt;/em&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -108,58 +94,42 @@ details and as soon as a slot opens up we’ll email you with instructions.&lt;/
    <link href="http://rinocloud.com/blog/2016/01/18/why-i-started-rinocloud.html"/>
    <updated>2016-01-18T07:34:57+00:00</updated>
    <id>http://rinocloud.com/blog/2016/01/18/why-i-started-rinocloud</id>
-   <content type="html">&lt;p&gt;I worked hard to get into Cambridge to do my PhD. I became a EU Marie Curie
-Fellow of Physics, was assigned two of the top scientists in the world in
-Semiconductors as supervisors. I got to work in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cavendish_Laboratory&quot;&gt;Cavendish
-lab&lt;/a&gt;. My peers were some of
-the best researchers in the world in their field.&lt;/p&gt;
+   <content type="html">&lt;h1 id=&quot;i-left-my-phd-and-set-up-rinocloud&quot;&gt;I left my PhD and set up Rinocloud&lt;/h1&gt;
+
+&lt;p&gt;I worked hard to get into Cambridge to do my PhD. I became a EU Marie Curie Fellow of Physics, was assigned two of the top scientists in the world in Semiconductors as supervisors. I got to work in the Cavendish lab. My peers were some of the best researchers in the world in their field.&lt;/p&gt;
 
 &lt;h3 id=&quot;so-why-did-i-leave&quot;&gt;So why did I leave?&lt;/h3&gt;
 
-&lt;p&gt;I love science. The investigation. The analysis. I love the carrying out of experiments. Watching
-the data being generated….&lt;/p&gt;
+&lt;p&gt;I love science: The investigation; the analysis. I enjoy the carrying out of experiments; watching the data being generated; the anticipation of what I might find. But data management is a pain:&lt;/p&gt;
 
-&lt;p&gt;But data management is a pain: The corralling of the data after it is generated and
-the busy unproductive work of preparing it and getting it organised for
-analysis; the hacking needed to configure lab information systems and integrate
-Instruments; the cutting and pasting of long laborious files into generic
-storage systems; the inefficient  sharing of data via files, memory sticks and
-Email.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The corralling of the data after it is generated;&lt;/li&gt;
+  &lt;li&gt;The busy unproductive work of preparing it and getting it organised for analysis;&lt;/li&gt;
+  &lt;li&gt;The code hacking needed to configure lab information systems and integrate instruments;&lt;/li&gt;
+  &lt;li&gt;The cutting and pasting of long laborious files into generic storage systems;&lt;/li&gt;
+  &lt;li&gt;The inefficient sharing of data via files, memory sticks and email;&lt;/li&gt;
+  &lt;li&gt;And the dreaded search for data.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;And the dreaded search for data. A colleague working on another project left
-and my team were asked to take over his research. It took us 6 weeks to figure
-out where his data was and what it contained. The data management was so bad
-that we could not verify the results of his data and the project could not
-continue.&lt;/p&gt;
+&lt;h3 id=&quot;the-straw-that-broke-the-camels-back&quot;&gt;The straw that broke the camel’s back&lt;/h3&gt;
 
-&lt;p&gt;I checked to see if there was system out there that would organise my data for
-me, and  plug into all the different programs I use. I couldn’t find anything.
-If I had these problems I figured researchers the world over were experiencing
-the same. After a lot of research on the market,  I dropped out of my PhD and am
-now doing a start up building a SaaS solution for every day scientific data management.&lt;/p&gt;
+&lt;p&gt;A colleague working on another project left and my team were asked to take over his research. It took us 6 weeks to figure out where his data was and what it contained. The data management was so bad that we could not verify his results and the project could not continue.&lt;/p&gt;
 
-&lt;p&gt;Our team – all scientists and programmers - have built and rolled out an MVP that
-deals with many of the issues we lived with as researchers.&lt;/p&gt;
+&lt;p&gt;I checked to see if there was system out there that would organise my data for me, and plug into all the different programs I use. I couldn’t find anything. If I had these problems I figured researchers the world over were experiencing the same. After a lot of research on the market, I dropped out and am now doing a start up building a SaaS solution for every day scientific data management.&lt;/p&gt;
 
-&lt;h3 id=&quot;it-looks-like-weve-hit-a-chord&quot;&gt;It looks like we’ve hit a chord.&lt;/h3&gt;
+&lt;p&gt;Our team – all scientists and programmers - have built and rolled out an MVP/prototype that deals with many of the issues we live with as researchers.&lt;/p&gt;
 
-&lt;p&gt;Friends and colleagues in some of the top research universities in the world have encouraged
-us to build and keep building the product. Many are using and testing in closed
-beta. More have signed up to be rolled out as testers. We have a rigorous
-feedback loop and the discipline now for us it to make sure we keep to a well
-defined roadmap because we’re getting so many suggestions for improvements and
-new features to solve the myriad of everyday data management problems
-researchers are experiencing.&lt;/p&gt;
+&lt;h2 id=&quot;it-looks-like-weve-hit-a-chord&quot;&gt;It looks like we’ve hit a chord.&lt;/h2&gt;
+&lt;p&gt;Friends and colleagues in some of the top research universities in the world have encouraged us to build and keep building the product. Many are using and testing in closed beta. More have signed up to be rolled out as testers. We have a rigorous feedback loop. The discipline needed now from us is to make sure we keep to a well defined roadmap because we’re getting so many suggestions for improvements and new features to solve the myriad of everyday data management problems researchers are experiencing.&lt;/p&gt;
 
-&lt;p&gt;So, the problems we’re solving are resonating. Hence the big opportunity to
-build a business.&lt;/p&gt;
+&lt;p&gt;So, the problems we’re solving are resonating. Hence the big opportunity to build a business.&lt;/p&gt;
 
-&lt;p&gt;I’m happy to talk to anyone about data, science, starting a business and share
-war stories and insights. We’re accelerating releases of beta versions now and
-have plugins for Python, Matlab and Labview. Data being poured into the
-rinocloud hub has full metadata and we have a clever search facility. Rolling
-out soon are auto plotting of data, an electronic notebook and a whole raft of
-collaboration features.  Take a look. &lt;a href=&quot;https://rinocloud.com/&quot;&gt;Sign up. It’s free!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I’m happy to talk to anyone about data, science, starting a business and share war stories and insights. We’re accelerating releases of beta versions now and have plugins for Python, Matlab and Labview. Data being poured into the Rinocloud hub has full metadata and we have a clever search facility. Rolling out are auto plotting of data, an electronic notebook and a whole raft of collaboration features. Take a look. Sign up. We’re looking for feedback!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Eoin is a founder of Rinocloud. He’s worked in Tyndall and Cambridge labs. He’s a physicist and programmer. He’s generated a lot of data so far in his life.&lt;/em&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -178,122 +148,11 @@ We have been using it internally for a few weeks to test the rinocloud api.&lt;/
  </entry>
  
  <entry>
-   <title>Rinocloud Labview tutorial</title>
-   <link href="http://rinocloud.com/jekyll/update/2016/01/12/rinocloud-labview-tutorial.html"/>
-   <updated>2016-01-12T17:34:57+00:00</updated>
-   <id>http://rinocloud.com/jekyll/update/2016/01/12/rinocloud-labview-tutorial</id>
-   <content type="html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;The Rinocloud LABView application programming interface (API) library contains VIs which ensure communication with Rinocloud servers by converting measured numerical data and metadata to JSON (JavaScript Object Notation) string and saving to the server. The current version of this library is adapted for a HTTP POST request, which saves &lt;strong&gt;numerical data&lt;/strong&gt; to the Rinocloud database.&lt;/p&gt;
-
-&lt;p&gt;JSON is an open standard format that uses human-readable text to transmit data objects consisting of attribute–value pairs. The library contains VIs which ensure that the correct JSON payload is sent to the server, which parses the request and transforms it into in the following form:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&quot;category&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;string, required&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&quot;tags&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optional&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&quot;notes&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;string, optional&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&quot;json_field&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;JSON&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optional&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&quot;data&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optional&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/aS7qsis.png&quot; alt=&quot;Library tree&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A basic functional example of saving numerical data and corresponding metadata is shown below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/q21VCu0.png&quot; alt=&quot;A basic functional example&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Three&lt;/strong&gt; VIs should be used to prepare a correct JSON payload:
-1. Rino data to JSON encoder.vi
-2. Rino parameters to JSON encoder.vi
-3. Rino HTTP request.vi&lt;/p&gt;
-
-&lt;p&gt;The functionality of each Virtual Instrument is described below. After getting familiar with them, it’s advisable to analyse two examples &lt;strong&gt;Rino client example.vi&lt;/strong&gt; and &lt;strong&gt;Rino client simulator.vi&lt;/strong&gt;, which contain realistic examples showing some usage cases, like populating data, metadata variables.&lt;/p&gt;
-
-&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
-
-&lt;p&gt;Before connecting to Rinocloud, valid connection and authentication parameters must be set in &lt;strong&gt;Rino client global variable.vi&lt;/strong&gt;.  The global variable contains essential communication parameters: (&lt;strong&gt;Token&lt;/strong&gt;) an authentication token and (&lt;a href=&quot;https://rinocloud.com/api/1/objects/&quot;&gt;&lt;strong&gt;Rino url&lt;/strong&gt;&lt;/a&gt;) an API address. Both parameters are required. Token can be obtained by registered and logged in users from &lt;a href=&quot;https://rinocloud.com/integrations&quot;&gt;https://rinocloud.com/integrations&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/v8NieWn.png&quot; alt=&quot;Global variable&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; To save the values as default, select Edit→Make Current Values Default, and Save.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-data-can-be-saved&quot;&gt;What data can be saved?&lt;/h2&gt;
-
-&lt;p&gt;The current version of the library enables saving arrays of &lt;strong&gt;numerical&lt;/strong&gt; and &lt;strong&gt;text&lt;/strong&gt; data. The options of data being saved span from a single array (or a single value placed in the array) to spectrum-like data, where data can contain x-axis, the actual data (1 or more curves, let’s call them subsets) from the measurement or calculation, and labeling of each subset, which is referred here as z-axis (an example would be &lt;em&gt;laser excitation power dependent set of photoluminescence spectra, where x-axis contains the range of wavelength, data array contains stacked spectra (several curves) and z-axis labels each curve with the laser intensity values (or timestamps if you prefer in your experiment)&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/d2dxA1C.png&quot; alt=&quot;data encoder VI&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;First, data needs to be encoded to the format accepted by the API. &lt;strong&gt;Rino data to JSON encoder.vi&lt;/strong&gt; VI takes care of the most of the cases - it accepts data and converts it to a JSON format array. As it is the polymorphic VI, it will adapt automatically to the type of data entered. This feature allows saving various combinations of data arrays.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;x axis&lt;/strong&gt; holds values for the x axis or it is just an array of arbitrary data values. It is an one-dimensional array (a row) of integer, double or string values.
-If a single array of numerical or text data needs to be saved, only this terminal can be populated.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1D(2D) data array&lt;/strong&gt; (optional) holds data. It is either one- or two-dimensional array of integer or double values. If it is a set of data (e.g., stacked curves), every individual record has to be presented as a row in a two-dimensional array.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;z axis&lt;/strong&gt; (optional) is available only when two-dimensional data is being entered. It is an one-dimensional array (a row) of integer, double or string values. It can be used to label individual rows of data saved in a two-dimensional array.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;data JSON string&lt;/strong&gt; is an output string representing a JSON array.
-For example,
-1. x-array [x1,x2,..,xn] and 1D array [y11,y12,…,y1n] are encoded to [[x1,y11],[x2,y12],…,[xn,y1n]]
-2. x-array [x1,x2,..,xn] , 2D array[ [y11,y12,…,y1n],[y21,y22,…,y2n]], z-array  [z1,z2]  are encoded to [[z1, z2], [x1,y11,y21],[x2,y12,y22],…,[xn,y1n,y2n]]&lt;/p&gt;
-
-&lt;h2 id=&quot;adding-metadata&quot;&gt;Adding metadata&lt;/h2&gt;
-
-&lt;p&gt;Metadata encoding is handled by &lt;strong&gt;Rino parameters to JSON encoder.vi&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/7LERcRo.png&quot; alt=&quot;metadata encoder VI&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The VI accepts metadata and converts it to JSON format accepted by Rinocloud API.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Metadata&lt;/strong&gt; is a cluster of 3 string elements to pass values to the attribute-value pairs: (1 - required) “category”: “string”,(2 - optional) “tags”: [array] and (3 - optional)  “notes”: “string”.
-“category” can be used as a descriptor of a group of data (e.g., “measurements”, “sensors”).
-“tags” are keywords and terms that make records more searchable. Although Rinocloud API accepts this value as a JSON array of strings, in the LABView VI the value has to be passed as a flattened spreadsheet string or a string where tags are separated by commas (e.g., “tag1,tag2,tag3”).
- “notes” string is meant to describe the record with specific information.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; To create a default cluster, right-click the Inputs terminal, select Create→Control.
-The metadata cluster can be populated using &lt;em&gt;Bundly By Name&lt;/em&gt; function:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/XEHqrEH.png&quot; alt=&quot;Metadata cluster&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Data JSON string&lt;/strong&gt; is a string containing the value created by &lt;strong&gt;Rino data to JSON encoder.vi&lt;/strong&gt; to create an attribute-value pair “data”: […].&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;extra metadata array&lt;/strong&gt; enables saving custom metadata by sending it to the VI for the conversion to JSON type attribute-value pairs. These pairs are held as a JSON object in “json_field”: {JSON object}. The terminal has to be populated by an array which contains a cluster(s) of 3 elements: 2 strings (1 - required) “attribute”, (2 - required) “value” and 1 integer (3 - required) “Data type”.  Each cluster is processed to an “attribute”:”value” string.
-1. “attribute” is a string.
-2. “value” is a string. The field can store a single integer (double) value, text, a single dimension array of strings, a single dimension array of integers (doubles) or even data prepared by &lt;strong&gt;Rino data to JSON encoder.vi&lt;/strong&gt;. The data need to be pre-converted to a string or a spreadsheet string before sending to the VI.
-3. “Data type” indicates the original data type of information stored in the “value” field, in order to ensure conversion to JSON compatible format. Possible values are: 0 – integer (double), 1 – string, 2 – an array of strings, 3 – an array of integers (doubles), 4 – data JSON string an output string of Rino data to JSON encoder.vi (it can be used to encode an auxiliary 2 dimentional array data), 5 – &lt;null&gt; the cluster is ignored.&lt;/null&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; check Rino client basic example.vi  and Rino client simulator.vi for different options how to construct extra metadata array clusters:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/xwkXpHB.png&quot; alt=&quot;Constructing metadata clusters&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JSON string&lt;/strong&gt; is the final string prepared for the HTTP request.&lt;/p&gt;
-
-&lt;h2 id=&quot;saving-data-to-rinocloud&quot;&gt;Saving data to Rinocloud&lt;/h2&gt;
-
-&lt;p&gt;The data is saved by __Rino HTTP request.vi __. The VI sends HTTP POST request.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/E4gHX9k.png&quot; alt=&quot;http request VI&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JSON string&lt;/strong&gt; is a JSON payload prepared by &lt;strong&gt;Rino parameters to JSON encoder.vi&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;headers&lt;/strong&gt; is a server response header.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;body&lt;/strong&gt; is a server response body, including error messages.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;record id&lt;/strong&gt; is an ID of the recent successfully saved record. It can be used for the custom API calls.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Data saved&lt;/strong&gt; is a boolean which returns True if the record was saved successfully, False if not.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Saving data with numpy vstack</title>
    <link href="http://rinocloud.com/jekyll/update/2016/01/12/saving-data-with-numpy.html"/>
    <updated>2016-01-12T17:34:57+00:00</updated>
    <id>http://rinocloud.com/jekyll/update/2016/01/12/saving-data-with-numpy</id>
-   <content type="html">&lt;h2 id=&quot;saving-multiple-arrays-from-numpy-with-vstack&quot;&gt;Saving multiple arrays from numpy with vstack&lt;/h2&gt;
-
-&lt;p&gt;Say we have a numpy array we want to save to a file&lt;/p&gt;
+   <content type="html">&lt;p&gt;Say we have a numpy array we want to save to a file&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random_integers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
@@ -366,352 +225,6 @@ into different programs.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;z&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loadtxt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;test.txt&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;This is a quick and easy way to get arrays in and out of files from numpy. It keeps the files portable for use with other programs.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Matlab Rinocloud tutorial</title>
-   <link href="http://rinocloud.com/jekyll/update/2016/01/10/rinocloud-matlab-tutorial.html"/>
-   <updated>2016-01-10T17:34:57+00:00</updated>
-   <id>http://rinocloud.com/jekyll/update/2016/01/10/rinocloud-matlab-tutorial</id>
-   <content type="html">&lt;p&gt;You can save and load data files from Rinocloud from within MATLAB using the Rinocloud-MATLAB interface.&lt;/p&gt;
-
-&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
-
-&lt;p&gt;Download the zip file from&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/rinocloud/rinocloud-matlab/archive/master.zip&quot;&gt;https://github.com/rinocloud/rinocloud-matlab/archive/master.zip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Or you can git clone the repository.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rinocloud&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rinocloud&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matlab&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
-
-&lt;p&gt;To get your API token; sign into your Rinocloud project and go to&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yourproject&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rinocloud&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;integrations&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Download the Rinocloud-MATLAB integration folder and add the folder and subfolders to your MATLAB path.&lt;/p&gt;
-
-&lt;p&gt;Copy your API token and paste it into the function called “authenication.m”, which is found in the “+rino” folder. Remember to keep this token secret, anyone with access to the API token can see and modify your data.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;That’s it!&lt;/strong&gt; You’re all set up and ready to go. See below for guides to using the different functions in the Rinocloud-MATLAB Interface.&lt;/p&gt;
-
-&lt;h2 id=&quot;tests&quot;&gt;Tests&lt;/h2&gt;
-
-&lt;p&gt;The Rinocloud-MATLAB integration should work right away, but if you want to test all of the functions automatically, you can do this by running the rinotests.m function. You will need to set the test API Token in the authenication.m file to the test API Token, which is:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;test only token&lt;/strong&gt; = &lt;code class=&quot;highlighter-rouge&quot;&gt;a377055b6aecc41f00038c4cd48169b6b55b3d78&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you have done this, running rinotests.m will check that all the Matlab functions for Rinocloud work on your computer and on your version of Matlab.&lt;/p&gt;
-
-&lt;p&gt;Remember to change the API Token back after you have finished running the tests, as all the test data is deleted periodically.&lt;/p&gt;
-
-&lt;h1 id=&quot;examples&quot;&gt;Examples&lt;/h1&gt;
-
-&lt;p&gt;This section will give you some simple example of how to use the Rinocloud-MATLAB Integration. For full details on what the functions can do, see the Function Documentation section below.&lt;/p&gt;
-
-&lt;h2 id=&quot;uploading-files&quot;&gt;Uploading files&lt;/h2&gt;
-
-&lt;h3 id=&quot;uploading-a-single-file&quot;&gt;Uploading a single file&lt;/h3&gt;
-
-&lt;p&gt;To upload a file to Rinocloud from MATLAB, first make sure that the file is in your current folder. To upload the file “logo.png” to Rinocloud, in the command window enter:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;response_metadata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;logo.png&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;upload-a-file-with-metadata-and-tags&quot;&gt;Upload a file with metadata and tags&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;struct&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-            &lt;span class=&quot;s1&quot;&gt;&#39;param1&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;value1&#39;&lt;/span&gt;
-            &lt;span class=&quot;s1&quot;&gt;&#39;param2&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;value2&#39;&lt;/span&gt;
-          &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-
-&lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;apples&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;oranges&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;response_metadata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;logo.png&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;metadata&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;tags&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;upload-to-a-specific-folder&quot;&gt;Upload to a specific folder&lt;/h3&gt;
-
-&lt;p&gt;Just get the id of the folder next to the folder name on the rinocloud website, its displayed as &lt;code class=&quot;highlighter-rouge&quot;&gt;#&amp;lt;id&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;response_metadata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;logo.png&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;parent&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parent_id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;response-metadata&quot;&gt;Response metadata&lt;/h3&gt;
-
-&lt;p&gt;The response metadata will typically look like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;response_metadata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;848&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;logo.png&#39;&lt;/span&gt;
-            &lt;span class=&quot;nb&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11433&lt;/span&gt;
-            &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;file&#39;&lt;/span&gt;
-         &lt;span class=&quot;n&quot;&gt;project&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;project_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;test&#39;&lt;/span&gt;
-           &lt;span class=&quot;n&quot;&gt;owner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;test_user&#39;&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;created_on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;2016-01-25T11:33:44.098427Z&#39;&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;updated_on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;2016-01-25T11:33:44.098457Z&#39;&lt;/span&gt;
-          &lt;span class=&quot;n&quot;&gt;shared&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-          &lt;span class=&quot;n&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;apples&#39;&lt;/span&gt;  &lt;span class=&quot;s1&quot;&gt;&#39;oranges&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-          &lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;value1&#39;&lt;/span&gt;
-          &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;value2&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;getting-the-id-of-the-uploaded-file&quot;&gt;Getting the id of the uploaded file&lt;/h3&gt;
-
-&lt;p&gt;You can get the ID of the uploaded file by typing&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;response_metadata&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;full-upload-example&quot;&gt;Full upload example&lt;/h3&gt;
-
-&lt;p&gt;Here is an example that uses all of the optional arguments. Here we want to upload a file called “logo.png”, but we want to rename it to “RinoLogo.png”. We also want to tag it with the tags “image” and “logo”, and to give it the key value pairs “size : small” and “colour : purple”. Finally, we also want to save it within a folder we have created which has the object ID 865. In order to do this, we enter the following:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;NAME&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;RinoLogo.png&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;SEARCH_TAGS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;image&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;logo&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;FILE_METADATA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;struct&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;size&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;small&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;colour&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;purple&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;FOLDER_ID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;865&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;png&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;newname&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;RinoLogo.png&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;tags&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SEARCH_TAGS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;metadata&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FILE_METADATA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;parent&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FOLDER_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;downloading-files&quot;&gt;Downloading files&lt;/h2&gt;
-
-&lt;h3 id=&quot;download-a-single-rinocloud-file&quot;&gt;Download a single Rinocloud file&lt;/h3&gt;
-
-&lt;p&gt;You can specify which file you want to download by giving its object ID. This can be found using the Rinocloud web interface. To download an object with the ID 667, you would enter:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;download&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;667&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;It will be named with the filename on Rinocloud&lt;/p&gt;
-
-&lt;h3 id=&quot;download-and-rename&quot;&gt;Download and rename&lt;/h3&gt;
-
-&lt;p&gt;If we want to download a csv file with object ID 7664, and to rename it “spectrum.txt”, we would type:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;download&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7664&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;newname&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;spectrum.txt&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;download-into-a-variable&quot;&gt;Download into a variable&lt;/h3&gt;
-
-&lt;p&gt;If we simply wanted to read the text straight into a MATLAB variable, “DATA”, as a string, we would type:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;DATA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;download&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7664&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;tofile&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;totext&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;download-most-recent&quot;&gt;Download most recent&lt;/h3&gt;
-
-&lt;p&gt;The download the most recently uploaded file to your current folder, you can enter:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;download_last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;download_last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;% will download last 4 files&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The function also takes the “tofile” and “totext” arguments in the same way as the rino.download() function. For multiple files, the output will be given as a cell array if the “tofile” argument is set to false.&lt;/p&gt;
-
-&lt;h2 id=&quot;creating-folders&quot;&gt;Creating folders&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create_folder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;rino_uploads&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The create_folder() function take only a single argument, the folder name as a string. The function returns the folder metadata, including its object ID so that the ID can be used when uploading to the folder.&lt;/p&gt;
-
-&lt;p&gt;To create a folder called “rino_uploads”, we enter:&lt;/p&gt;
-
-&lt;h2 id=&quot;updating&quot;&gt;Updating&lt;/h2&gt;
-
-&lt;h3 id=&quot;updating-tags&quot;&gt;Updating tags&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;update_tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This function removes the old tags associated with an object and replaces them with new ones. The function requires the object ID of the object with tags to be replaced and the new tags as cell array of strings. For example, to replace the tags of the object with the ID 8898 with the tags “fast” and “new”, we would type:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;update_tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8898&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;fast&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;new&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;updating-metadata&quot;&gt;Updating metadata&lt;/h3&gt;
-
-&lt;p&gt;This updates the metadata associated with a file. The function requires the object ID of the file and the new metadata as a MATLAB structure array. For example, if we wanted to associate the metadata “laser_power : 6 nW” with the file with the ID 8898, we would enter:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;update_metadata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8898&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;struct&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;laser_power&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;6 nW&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;deleting&quot;&gt;Deleting&lt;/h2&gt;
-
-&lt;p&gt;This function deletes a saved file. The delete function takes only the object ID of the file you want to delete. So delete the file with the object ID 8898, we type:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8898&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;api-documentation&quot;&gt;API Documentation&lt;/h1&gt;
-
-&lt;h2 id=&quot;rinoupload&quot;&gt;rino.upload()&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;% with all optional arguments&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;newname&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;newname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;metadata&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;tags&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;parent&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The upload function only requires the file name (or file path) as a string as an input. It also takes the following optional arguments:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;newname&lt;/strong&gt;: This is the name that the file will given when it is saved to Rinocloud. The newname should be a string.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;tags&lt;/strong&gt;: Tags are to allow you to search your data more easily. Tags should be given as a cell array of strings.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;metadata&lt;/strong&gt;: Metadata should be in the form of key-value pairs and should be passed to the upload function as a MATLAB structure array.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;parent&lt;/strong&gt;: The parent argument is the object ID of the folder that you want to save your file into. You can find the folder object ID using the web interface.&lt;/p&gt;
-
-&lt;h2 id=&quot;rinodownload&quot;&gt;rino.download()&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;download&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;% with all optional arguments&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;rino&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;download&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;tofile&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;totext&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The download function only requires the object ID of file you want to download. The funtion will save the file in your current folder. The download function also takes the following optional arguments:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;newname&lt;/strong&gt;: As before, this is the name that the file will given when it is saved to your computer. The newname should be a string.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;tofile&lt;/strong&gt;: This argument defaults to true, but if it is set to false, the downloaded file will be returned as binary data (encoded in the uint8 format) and will not be saved to a file on your computer.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;totext&lt;/strong&gt;: This argument defaults to false, but if set to true it will assume that the downloaded data is text.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Python Rinocloud tutorial</title>
-   <link href="http://rinocloud.com/jekyll/update/2016/01/08/rinocloud-python-tutorial.html"/>
-   <updated>2016-01-08T17:34:57+00:00</updated>
-   <id>http://rinocloud.com/jekyll/update/2016/01/08/rinocloud-python-tutorial</id>
-   <content type="html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
-&lt;p&gt;Lets get started on RinoCloud’s API using Python and the &lt;a href=&quot;http://docs.python-requests.org/en/latest/&quot;&gt;requests&lt;/a&gt; library.&lt;/p&gt;
-
-&lt;p&gt;RinoCloud will store your files in a similar fashion as to the filesystem in your computer. The main units of work are files and folders. Files can have a JSON object to hold metadata related to them.&lt;/p&gt;
-
-&lt;p&gt;Lets get started then with our Python code.&lt;/p&gt;
-
-&lt;p&gt;After making sure that we have the requests library installed, if not a quick &lt;code class=&quot;highlighter-rouge&quot;&gt;$ pip install requests&lt;/code&gt; should fix it.&lt;/p&gt;
-
-&lt;p&gt;To get access we need to add an authentication header to each request. Go to the &lt;a href=&quot;https://rinocloud.com/api/1/users/token&quot;&gt;token api&lt;/a&gt; and get your token (if your signed in to rinocloud).&lt;/p&gt;
-
-&lt;h3 id=&quot;accessing-rinocloud&quot;&gt;Accessing rinocloud&lt;/h3&gt;
-
-&lt;p&gt;Get your API access token at &lt;a href=&quot;https://rinocloud.com/integrations&quot;&gt;https://rinocloud.com/integrations&lt;/a&gt; if you are signed into rinocloud.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;c&quot;&gt;# get your token at https://rinocloud.com/integrations&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&amp;lt;your token&amp;gt;&#39;&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;# we make some headers to be sent with each http request.&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;&#39;Authorization&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Token &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s&#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;&#39;X-Requested-With&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;XMLHttpRequest&#39;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;creating-folder&quot;&gt;Creating Folder&lt;/h3&gt;
-&lt;p&gt;We can start by creating a folder where we will upload our files:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;requests&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;name&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;my_test_folder&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://rinocloud.com/api/1/files/create_folder/&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                      &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# should be 201 created&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;folder_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# we will use this to upload to this folder&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;uploading-file&quot;&gt;Uploading File&lt;/h3&gt;
-&lt;p&gt;After creating our folder, lets upload our first file into it, we use a slightly different way to upload metadata with a file, we place it in a field called json, this is because the HTTP request has a &lt;code class=&quot;highlighter-rouge&quot;&gt;multipart/form-data&lt;/code&gt; content-type.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;s&quot;&gt;&#39;file&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;riemman_hypothesis_proof.txt&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;rb&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;s&quot;&gt;&#39;parent&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;folder_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;s&quot;&gt;&#39;tags&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;math&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;proof&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;riemman&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://rinocloud.com/api/1/files/upload/&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                      &lt;span class=&quot;n&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;json&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dumps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)},&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# should be 201, created.&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;file_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;updating-metadata&quot;&gt;Updating Metadata&lt;/h3&gt;
-&lt;p&gt;Let’s now update some of the metadata of this new file we just uploaded:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;&#39;field1&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Some description text&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;&#39;field2&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;100.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;RinoCloud&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://rinocloud.com/api/1/files/update/&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# should be 200 ok&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;getting-metadata&quot;&gt;Getting Metadata&lt;/h3&gt;
-&lt;p&gt;Getting this metadata back from a file is quite simple too:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&amp;lt;object-id&amp;gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://rinocloud.com/api/1/files/get_metadata/&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# should be 200 ok&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;getting-childrens-of-object&quot;&gt;Getting Childrens of object&lt;/h3&gt;
-&lt;p&gt;Childrens of a given object can be retrieved with:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&amp;lt;object-id&amp;gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://rinocloud.com/api/1/files/children/&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# should be 200 ok&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;children&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;getting-ancestors-of-object&quot;&gt;Getting Ancestors of Object&lt;/h3&gt;
-&lt;p&gt;And just as them, Ancestors of an object:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&amp;lt;object-id&amp;gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://rinocloud.com/api/1/files/ancestors/&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# should be 200 ok&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;downloading-file&quot;&gt;Downloading File&lt;/h3&gt;
-&lt;p&gt;If you want to download a file:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://rinocloud.com/api/1/files/download/?id=&amp;lt;object-id&amp;gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                 &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# should be 200 ok&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;content&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# file content&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;downloading-a-large-file&quot;&gt;Downloading a large file&lt;/h3&gt;
-
-&lt;p&gt;We got this code from a great answer by Roman Podlinov on &lt;a href=&quot;http://stackoverflow.com/questions/16694907/how-to-download-large-file-in-python-with-requests-py&quot;&gt;Stack overflow&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;download_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;local_filename&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;# NOTE the stream=True parameter&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stream&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local_filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;wb&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chunk&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iter_content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chunk_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1024&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chunk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# filter out keep-alive new chunks&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chunk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;c&quot;&gt;#f.flush() commented by recommendation from J.F.Sebastian&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;local_filename&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;download_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://rinocloud.com/api/1/files/download/?id=&amp;lt;object-id&amp;gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;delete-file&quot;&gt;Delete File&lt;/h3&gt;
-&lt;p&gt;To finalize, if you would like to delete an object:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&amp;lt;object-id1&amp;gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&amp;lt;object-id2&amp;gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]}&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://rinocloud.com/api/1/files/delete/&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                 &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# should be 204 no content&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;Thats is, thats how you get data in and out of Rinocloud. If you have any questions, shoot us up on &lt;a href=&quot;https://twitter.com/rinocloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
