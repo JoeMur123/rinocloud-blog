@@ -6,7 +6,6 @@ author: Eoin
 categories: jekyll update
 ---
 
-## Saving multiple arrays from numpy with vstack
 
 Say we have a numpy array we want to save to a file
 
