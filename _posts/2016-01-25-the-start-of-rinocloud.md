@@ -2,7 +2,7 @@
 layout: post
 title:  "The start of RinoCloud "
 date:   2016-01-25 17:34:57 +0000
-author: Fin
+author: Helena
 categories: jekyll update
 ---
 
