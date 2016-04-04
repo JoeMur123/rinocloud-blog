@@ -4,13 +4,74 @@
  <title>Rinocloud</title>
  <link href="http://rinocloud.com/atom.xml" rel="self"/>
  <link href="http://rinocloud.com/"/>
- <updated>2016-02-08T11:36:51+00:00</updated>
+ <updated>2016-04-04T15:49:12+01:00</updated>
  <id>http://rinocloud.com</id>
  <author>
    <name>Eoin Murray</name>
    <email>eoin@rinocloud.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Rinocloud is hiring</title>
+   <link href="http://rinocloud.com/2016/04/04/rinocloud-is-hiring.html"/>
+   <updated>2016-04-04T02:34:57+01:00</updated>
+   <id>http://rinocloud.com/2016/04/04/rinocloud-is-hiring</id>
+   <content type="html">&lt;p&gt;Rinocloud is creating a new platform for researchers to manage data and collaborate.
+We are funded and growing fast, and are looking to expand our team.&lt;/p&gt;
+
+&lt;p&gt;If any of the jobs listed below interest you please send an email to &lt;a href=&quot;mailto:helena@rinocloud.com&quot;&gt;helena@rinocloud.com&lt;/a&gt; introducing yourself and lets have a chat. All positions come with a competitive salary and a significant stake of the company.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;user-experience-engineer&quot;&gt;User experience engineer.&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;What you’ll do:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Design the user interface for our web frontend.&lt;/li&gt;
+  &lt;li&gt;Implement the design in Javascript (we use React.js and Redux.js, you can learn these on the job).&lt;/li&gt;
+  &lt;li&gt;Conduct usability testing and analytics of user behavior to learn what users like and don’t like.&lt;/li&gt;
+  &lt;li&gt;Constantly refine the interface to make it as simple as possible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What you need to bring&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Javascript engineering experience.&lt;/li&gt;
+  &lt;li&gt;Some experience of interface design.&lt;/li&gt;
+  &lt;li&gt;Ability to make mockups, and implement design in the web app.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;backend-engineer&quot;&gt;Backend engineer.&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;What you’ll do:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Build new features prototypes that we can test with users.&lt;/li&gt;
+  &lt;li&gt;Implement those features robustly.&lt;/li&gt;
+  &lt;li&gt;Write tests.&lt;/li&gt;
+  &lt;li&gt;Build plugins for Rinocloud is various programming languages.&lt;/li&gt;
+  &lt;li&gt;Take user feedback and design next stage features.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What you need to bring&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coding experience in any language (we use Python and Django, but a good engineer can learn those fast).&lt;/li&gt;
+  &lt;li&gt;Understanding of web networking.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;growth-hacker--sales&quot;&gt;Growth hacker &amp;amp; sales.&lt;/h1&gt;
+
+&lt;p&gt;We primarily need engineers at the moment, but if the right person
+comes to us to run sales and marketing, we will be interested.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>What our market is telling us </title>
