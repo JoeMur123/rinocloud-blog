@@ -37,8 +37,8 @@ __What you'll do:__
 - Build new features prototypes that we can test with users.
 - Implement those features robustly.
 - Write tests.
-- Build plugins for Rinocloud is various programming languages.
-- Take user feedback and design next stage features.
+- Build plugins for Rinocloud in various programming languages.
+- Use user feedback to design next stage features.
 
 __What you need to bring__:
 
